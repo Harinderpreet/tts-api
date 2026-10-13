@@ -1,0 +1,56 @@
+body { margin: 0; background: #f5f7fb; }
+.test-page { color-scheme: light; color: #182438; font-family: Inter, ui-sans-serif, system-ui, sans-serif; line-height: 1.5; min-height: 100vh; }
+.test-page * { box-sizing: border-box; }
+.test-page .test-shell { max-width: 1180px; margin: 0 auto; padding: 48px 24px 72px; }
+.test-page .page-heading { margin-bottom: 28px; }
+.test-page h1 { font-size: clamp(2rem, 4vw, 2.8rem); letter-spacing: -.045em; margin: 8px 0; line-height: 1.15; }
+.test-page h2 { font-size: 1.1rem; letter-spacing: -.02em; margin: 0 0 6px; }
+.test-page p { margin: 8px 0 16px; }
+.test-page .eyebrow { color: #50627e; font-size: .7rem; font-weight: 700; letter-spacing: .12em; }
+.test-page .panel { background: white; border: 1px solid #dfe5ee; border-radius: 16px; padding: 26px; margin-bottom: 20px; min-width: 0; box-shadow: 0 3px 14px #1e355306; }
+.test-page .connection { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; }
+.test-page .connection .field { margin: 0; }
+.test-page .connection p { margin-bottom: 0; }
+.test-page .workspace-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 20px; }
+.test-page .section-heading { display: flex; gap: 16px; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+.test-page .section-heading p { margin: 4px 0 0; }
+.test-page .muted { color: #5b6b80; font-size: .82rem; }
+.test-page .notice { border: 1px solid #dedfc1; border-radius: 10px; background: #fafbed; padding: 14px 18px; color: #555c30; font-size: .88rem; margin-bottom: 24px; }
+.test-page fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.test-page .field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
+.test-page label { font-size: .82rem; font-weight: 650; }
+.test-page input, .test-page textarea { width: 100%; border: 1px solid #ccd5e2; border-radius: 8px; background: #fff; color: #182438; padding: 10px 12px; font: inherit; font-size: .9rem; }
+.test-page textarea { resize: vertical; min-height: 150px; }
+.test-page :is(input, textarea, button, a, summary):focus-visible { outline: 3px solid #96b4f0; outline-offset: 3px; }
+.test-page .parameter-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.test-page button, .test-page .button { border: 1px solid #cad4e3; border-radius: 8px; padding: 10px 14px; background: #fff; color: #273b58; font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+.test-page button:hover:not(:disabled), .test-page .button:hover { background: #f0f4fa; }
+.test-page button.primary { background: #285acb; border-color: #285acb; color: #fff; }
+.test-page button.primary:hover:not(:disabled) { background: #204bac; }
+.test-page button.danger { color: #b02e36; border-color: #e8cace; }
+.test-page button:disabled { opacity: .48; cursor: not-allowed; }
+.test-page input:disabled, .test-page textarea:disabled { background: #f5f7fa; }
+.test-page .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.test-page .audio-section { border-top: 1px solid #e4e9f1; padding-top: 20px; margin-top: 20px; }
+.test-page audio { width: 100%; display: block; margin-top: 18px; }
+.test-page .api-response { margin-top: 16px; }
+.test-page .response-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; font-size: .78rem; }
+.test-page code { font-family: ui-monospace, SFMono-Regular, monospace; font-size: .78rem; overflow-wrap: anywhere; }
+.test-page .badge { background: #e6f4ed; color: #216144; padding: 3px 8px; border-radius: 5px; font-size: .72rem; font-weight: 700; }
+.test-page .error-badge { background: #fce8e9; color: #a32532; }
+.test-page pre { background: #f6f8fc; border: 1px solid #e4e9f1; padding: 16px; border-radius: 8px; overflow: auto; max-height: 360px; font-size: .8rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.test-page .error { color: #a32532; font-size: .88rem; }
+.test-page .empty { color: #65758b; font-size: .88rem; padding: 10px 0; }
+.test-page .job-list { list-style: none; padding: 0; max-height: 460px; overflow: auto; }
+.test-page .job-list li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid #e4e9f1; }
+.test-page .job-details { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.test-page .job-details p { margin: 0; font-size: .85rem; overflow-wrap: anywhere; }
+.test-page summary { cursor: pointer; color: #496387; font-size: .85rem; }
+@media (max-width: 780px) {
+  .test-page .test-shell { padding: 28px 16px 48px; }
+  .test-page .workspace-grid, .test-page .connection { grid-template-columns: 1fr; gap: 0; }
+  .test-page .connection { gap: 18px; }
+  .test-page .panel { padding: 20px; }
+  .test-page .section-heading { align-items: flex-start; flex-wrap: wrap; }
+}
+@media (max-width: 420px) { .test-page .parameter-grid { grid-template-columns: 1fr; gap: 0; } }

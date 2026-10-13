@@ -1,0 +1,12 @@
+node_modules/
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+audio_files/
+*.log
+.DS_Store
+# The parent Python gitignore ignores every lib directory.
+!src/lib/
+!src/lib/**
