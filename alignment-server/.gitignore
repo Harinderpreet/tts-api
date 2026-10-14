@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+audio/
+output/
+benchmark-results/
+.env
+.env.*
+*.log
+.DS_Store

@@ -1,0 +1,40 @@
+{
+  "backend": "ctranslate2",
+  "version": "4.8.3",
+  "lightweight": true,
+  "heavyweight_libraries_imported": [],
+  "compute_type": "int8_float32",
+  "device": "cpu",
+  "shared_model": true,
+  "inference_workers": 2,
+  "intra_threads": "backend default",
+  "requests": 2,
+  "audio_duration_seconds_per_request": 118.152,
+  "window_seconds": 30,
+  "context_seconds_each_side": 2,
+  "batch_size": 1,
+  "cached_model_load_seconds": 1.7374224999948638,
+  "both_requests_seconds_excluding_setup": 24.100400750001427,
+  "total_seconds_including_imports_and_model_loading": 25.957351791999827,
+  "combined_peak_process_ram_bytes": 5090983936,
+  "combined_peak_process_ram_gib": 4.7413482666015625,
+  "maximum_observed_active_inference_batches": 2,
+  "results": [
+    {
+      "request": 1,
+      "seconds_including_audio_processing_and_srt_write": 24.100179125001887,
+      "word_count": 305,
+      "transcript_matches": true,
+      "matches_single_request_int8_srt": false,
+      "output": "/Users/harinderpreetsingh/Desktop/Programming/speechma/forced-alignment/output/sample-2026-10-14/words.current.concurrent.cupecomparison.1.srt"
+    },
+    {
+      "request": 2,
+      "seconds_including_audio_processing_and_srt_write": 23.673553583001194,
+      "word_count": 305,
+      "transcript_matches": true,
+      "matches_single_request_int8_srt": false,
+      "output": "/Users/harinderpreetsingh/Desktop/Programming/speechma/forced-alignment/output/sample-2026-10-14/words.current.concurrent.cupecomparison.2.srt"
+    }
+  ]
+}

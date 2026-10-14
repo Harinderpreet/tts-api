@@ -1,0 +1,45 @@
+{
+  "voice": "en-US-AriaNeural",
+  "language": "eng",
+  "characters": 9186,
+  "words": 1554,
+  "generation_seconds": 24.653556791,
+  "parts": [
+    {
+      "file": "part-1.mp3",
+      "job_id": "ea7d594c-3f42-4aa8-8040-8443b2622977",
+      "characters": 2265,
+      "words": 389,
+      "bytes": 855072,
+      "duration_seconds": 142.512
+    },
+    {
+      "file": "part-2.mp3",
+      "job_id": "fc14f702-b4bb-4b3b-a16f-86901c684067",
+      "characters": 2272,
+      "words": 389,
+      "bytes": 881856,
+      "duration_seconds": 146.976
+    },
+    {
+      "file": "part-3.mp3",
+      "job_id": "cb269d6b-f617-44e7-910c-3503cb7bd891",
+      "characters": 2360,
+      "words": 388,
+      "bytes": 887616,
+      "duration_seconds": 147.936
+    },
+    {
+      "file": "part-4.mp3",
+      "job_id": "3ac95bdf-85da-414f-b20d-dbf810133b76",
+      "characters": 2283,
+      "words": 388,
+      "bytes": 866448,
+      "duration_seconds": 144.408
+    }
+  ],
+  "original_duration_seconds": 581.832,
+  "tempo_factor": 0.9705287739783153,
+  "target_decoded_duration_seconds": 600,
+  "preparation": "Four unique narration sections concatenated; pitch-preserving tempo adjustment and final silence padding to ten minutes. No repeated audio."
+}

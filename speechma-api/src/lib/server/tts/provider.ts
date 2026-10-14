@@ -1,5 +1,5 @@
 import type { TtsRequest } from '$lib/types/tts';
-import { createSpeechSsml } from './ssml';
+import { createSpeechSsml } from '$lib/tts/ssml';
 import { synthesizeSsml } from './translator';
 
 /** Internal boundary between the queue and the Microsoft Translator speech method. */

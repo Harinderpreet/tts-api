@@ -1,0 +1,12 @@
+.git
+.venv
+**/__pycache__
+**/*.pyc
+.cache
+audio
+output
+benchmark-results
+.env
+.env.*
+*.log
+.DS_Store

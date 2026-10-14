@@ -1,0 +1,31 @@
+{
+  "mode": "lightweight",
+  "backend": "ctranslate2",
+  "compute_type": "int8_float32",
+  "device": "cpu",
+  "batch_size": 1,
+  "window_seconds": 30,
+  "context_seconds": 2,
+  "audio_duration_seconds": 118.152,
+  "transcript_characters": 1781,
+  "total_seconds_including_imports_and_model_loading": 18.032842790998984,
+  "generation_seconds_excluding_imports_and_model_load": 16.228259417002846,
+  "peak_process_ram_bytes": 3438460928,
+  "peak_process_ram_gib": 3.2023162841796875,
+  "heavyweight_libraries_imported": [],
+  "stages": {
+    "dependency_import_seconds": 0.06830416699813213,
+    "peak_ram_after_imports_bytes": 38846464,
+    "model_load_seconds": 1.7275825409960817,
+    "peak_ram_after_model_load_bytes": 414973952
+  },
+  "comparison": {
+    "reference": "words.int8.batch1.srt",
+    "words": 305,
+    "words_match": true,
+    "srt_byte_identical": false,
+    "changed_words": 1,
+    "mean_boundary_difference_ms": 0.19672131147540983,
+    "max_boundary_difference_ms": 120
+  }
+}

@@ -1,0 +1,1025 @@
+seconds,rss_bytes,phase,requests,queued_batches,active_batches
+0.055064291998860426,25542656,imports,{},0,0
+0.11078820900002029,37683200,imports,{},0,0
+0.16154529200139223,43286528,model_load,{},0,0
+0.21666458399704425,43892736,model_load,{},0,0
+0.269861166998453,44351488,model_load,{},0,0
+0.3250205000003916,44761088,model_load,{},0,0
+0.3804106250026962,45072384,model_load,{},0,0
+0.4354883339983644,45416448,model_load,{},0,0
+0.49052929200115614,45744128,model_load,{},0,0
+0.5456229589981376,46022656,model_load,{},0,0
+0.5965637089975644,46284800,model_load,{},0,0
+0.6470292919984786,47071232,model_load,{},0,0
+0.7013152919971617,47366144,model_load,{},0,0
+0.7533553749963176,47677440,model_load,{},0,0
+0.8047112499989453,47955968,model_load,{},0,0
+0.8603605419993983,48283648,model_load,{},0,0
+0.9105402499990305,48562176,model_load,{},0,0
+0.9656718339974759,48873472,model_load,{},0,0
+1.0203852499980712,49152000,model_load,{},0,0
+1.0757740839981125,50315264,model_load,{},0,0
+1.1311217089969432,50610176,model_load,{},0,0
+1.1848583339960896,50937856,model_load,{},0,0
+1.235852416997659,51216384,model_load,{},0,0
+1.2864619169995422,51478528,model_load,{},0,0
+1.341578583997034,51822592,model_load,{},0,0
+1.3966470000013942,52396032,model_load,{},0,0
+1.452614125002583,52805632,model_load,{},0,0
+1.5076720419965568,53116928,model_load,{},0,0
+1.5604581250008778,53460992,model_load,{},0,0
+1.6175096669976483,59523072,model_load,{},0,0
+1.6816570840019267,64782336,model_load,{},0,0
+1.7401689999969676,69271552,model_load,{},0,0
+1.7952098750029108,100990976,model_load,{},0,0
+1.850262667001516,271253504,model_load,{},0,0
+1.901128792000236,417169408,ready_idle,{},0,0
+1.9562359999981709,417169408,ready_idle,{},0,0
+2.0113168339958065,417169408,ready_idle,{},0,0
+2.0656442920007976,417169408,ready_idle,{},0,0
+2.1205042919973494,417169408,ready_idle,{},0,0
+2.174370166998415,417169408,ready_idle,{},0,0
+2.229413916997146,417169408,ready_idle,{},0,0
+2.2813786670012632,417169408,ready_idle,{},0,0
+2.3379195840025204,417169408,ready_idle,{},0,0
+2.391108208998048,417169408,ready_idle,{},0,0
+2.443631333997473,417169408,ready_idle,{},0,0
+2.4988623339959304,417169408,ready_idle,{},0,0
+2.551905667001847,417169408,ready_idle,{},0,0
+2.606821667002805,417169408,ready_idle,{},0,0
+2.6608941669983324,417169408,ready_idle,{},0,0
+2.7136204589987756,417169408,ready_idle,{},0,0
+2.768246833999001,417169408,ready_idle,{},0,0
+2.820401541997853,417169408,ready_idle,{},0,0
+2.8751023750010063,417169408,ready_idle,{},0,0
+2.9323949589961558,417562624,round_1_requests_1,"{""1.1"": ""text_preparation""}",0,0
+2.990576249998412,417660928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,0
+3.041944249998778,418185216,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,0
+3.0928780419999384,883572736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.147999583998171,883572736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.203126084001269,883572736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.2582648749958025,883572736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.3101109999988694,883572736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.365247084002476,883605504,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.4175915000014356,1217871872,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.4715114169957815,1233567744,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.526584917002765,1365671936,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.5816686249963823,1430274048,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.634427291995962,1490944000,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.689505417001783,1608908800,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.7445992919965647,1608908800,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.799689874998876,1654358016,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.85476516700146,1682030592,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.9094459999978426,1693384704,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+3.964542834000895,1714290688,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.019616874997155,1756086272,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.074727458995767,1777074176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.125355958996806,2135834624,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.180431749999116,2675818496,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.235499875001551,2675818496,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.290567750002083,2675818496,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.34565366699826,2764423168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.400743833997694,2817654784,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.455849999998463,2858237952,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.510948333998385,2874769408,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.566048749999027,2874769408,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.621130874998926,2874785792,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.6761042090001865,2874785792,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.731183625000995,2874982400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.7862862089968985,2874982400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.8404348339972785,2875015168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.895507458997599,2875015168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+4.948913125001127,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.001563833997352,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.056660458998522,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.111703374997887,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.163905624998733,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.218995541996264,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.274078666996502,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.3291500420018565,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.384239166996849,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.439315499999793,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.4909619169993675,2875113472,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.545963833996211,2875129856,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.600178959000914,2875129856,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.655244749999838,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.709622916998342,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.763162916999136,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.818106500002614,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.871501458997955,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.926601416998892,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+5.981687125000462,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.034502791997511,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.089586166999652,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.1446833750014775,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.199761292002222,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.254874624995864,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.309417750002467,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.364020583998354,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.41783816699899,2875146240,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.472903583999141,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.527970750001259,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.583029041998088,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.63399445899995,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.686075749996235,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.736172750002879,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.791254834002757,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.846013624999614,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.900174000002153,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+6.9548315419961,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.008508583996445,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.063591958998586,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.117750042001717,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.172821499996644,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.227934709000692,2875179008,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.283009416998539,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.334429542002908,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.389533583998855,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.4405387500009965,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.493282458999602,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.547256708996429,2878423040,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.597742917001597,3212673024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.65186308400007,3212673024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.706962625001324,3212673024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.760877000000619,3212673024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.811970417002158,3212673024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.867046458995901,3212689408,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.922129083999607,3212689408,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+7.977206458999717,3379822592,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.032306667002558,3400941568,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.087390084001527,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.142495416999736,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.194327208999312,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.249440458996105,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.303240209002979,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.358315208999556,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.413399459001084,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.467769083996245,3422502912,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.522864209000545,3437445120,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.57795525000256,3451469824,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.633033459002036,3493347328,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.688028874996235,3493347328,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.74279199999728,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.794601583998883,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.84834066699841,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.903451124999265,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+8.956708874997275,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.011800209002104,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.062971416999062,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.118047958996613,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.173133709002286,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.22766650000267,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.282755416999862,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.334919708999223,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.389683125002193,3493380096,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.442804375001288,3493429248,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.497899208996387,3493429248,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.55285316699883,3493429248,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.607718041996122,3493429248,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.662846209001145,3493445632,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.717772167001385,3493445632,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.768287334001798,3493462016,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.82337383399863,3493462016,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.87608541699592,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.93117558400263,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+9.984543375001522,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.03969370899722,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.092751916999987,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.147830458998214,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.202908917002787,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.257979458998307,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.313039000000572,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.368098209000891,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.423168125002121,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.478231250002864,3493478400,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.533309999998892,3493494784,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.588389584001561,3493494784,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.643496374999813,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.698553583999455,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.753639916998509,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.808516083998256,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.861055834000581,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.91612133399758,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+10.971193999997922,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.025444250000874,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.080495791997237,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.135545249999268,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.190398042002926,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.242980666997028,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.298038875000202,3493511168,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.353094999998575,3493527552,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.408165667002322,3493527552,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.463267250001081,3493543936,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.51832524999918,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,0
+11.573394917002588,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.628490041999612,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.680735374997312,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.735805167001672,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.790868374999263,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.845709125002031,3493756928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.898204708995763,3494608896,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+11.95083162499941,3497148416,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.005891916996916,3525574656,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.061003750000964,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.116073083998344,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.170091749998392,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.22515462499723,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.280248834002123,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.33441108399711,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.389468875000603,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.443316791999678,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.49838466700021,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.553452334002941,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.60850820899941,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.663575375001528,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.71775233399967,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.772823624996818,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.827899374999106,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.882984916999703,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.933826250002312,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+12.987553250000929,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.040348124995944,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.09541262499988,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.150473708999925,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.205534291999356,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.260587750002742,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.315097833998152,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.367734624996956,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.422806834001676,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.477868084002694,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.53292962499836,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.588000499999907,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.643072999999276,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.698150124997483,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.753206458997738,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.80826462499681,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.86331870900176,3535650816,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.91837683400081,3535667200,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+13.973431541999162,3535667200,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.028495459002443,3535683584,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.081641625001794,3535683584,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.136698542002705,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.19176004199835,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.242823874999885,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.297904999999446,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.352996166999219,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.408109416996012,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.46317149999959,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.51822241699847,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.573280124997837,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.628336750000017,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.683397125001648,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.73845587499818,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.793509249997442,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.848554666998098,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.903609708999284,3535699968,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+14.95868524999969,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.013754708998022,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.068818792002276,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.122622333998152,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.177852624998195,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.232938624998496,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.288004166999599,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.340089792000072,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.393891624997195,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.44894766699872,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.504002208996098,3535732736,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.559064333996503,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.614136292002513,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.669205708996742,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.719375458997092,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.77444016699883,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.827359292001347,3537420288,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.882447459000105,3538239488,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.937519999999495,3538305024,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+15.992580209000153,3553869824,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.047644209000282,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.1027411249961,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.15612433399656,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.20619812500081,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.261263000000326,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.31636662499659,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.37146762500197,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.42652329200064,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.48156966699753,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.535433999997622,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.59051024999644,3579314176,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.64274308399763,3579756544,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.697823583999707,3579756544,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.75289520899969,3579756544,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.80797066699597,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.863045541998872,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.918096749999677,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+16.973150958998303,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.02478987500217,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.079852791997837,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.13490612500027,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.189955000001646,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.242980541996076,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.29804024999612,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.35106491699844,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.406127249996644,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.46119579199876,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.516249374995823,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.571312041996862,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.626394209000864,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.681443041998136,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.736498459002178,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.791567416999897,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.84663708399603,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.90169258399692,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+17.956738749999204,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.0117833339973,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.066822291999415,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.121872834002716,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.176927125001384,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.23198012499779,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.2870329590005,3579772928,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.342096874999697,3579789312,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.397170333999384,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.450009166997916,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.5050753339965,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.56012920899957,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.61175695899874,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.666834499999823,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.72190324999974,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.77696124999784,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.832028124998033,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.884393583997735,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.93946616700123,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+18.99452087499958,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.04646466700069,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.101149208996503,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.156230583997967,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.211278292001225,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.266339834000973,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.320246666997264,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.370371500001056,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.42176874999859,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.474737416996504,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.529805291997036,3579805696,round_1_requests_1,"{""1.1"": ""streaming_inference""}",0,1
+19.591495874999964,3580329984,round_1_requests_1,"{""1.1"": ""word_boundaries""}",0,0
+19.64659941699938,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.701681999998982,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.756749833999493,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.810202000000572,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.866162334001274,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.917214749999403,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+19.96823670899903,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.018937374996312,3580952576,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.070571459000348,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.125219041998207,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.17786199999682,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.233029041999544,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.283333833998768,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.33634916700248,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.39049683399935,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.444219375000102,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.498883874999592,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.55109749999974,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.605608749996463,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.662288416999218,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.716830833996937,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.767281458996877,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.822368834000372,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.877443999997922,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.9303971670015,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+20.985484999997425,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.04054591699969,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.095664041997225,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.15015466699697,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.201134875002026,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.256474959001935,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.311384333996102,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.365545499997097,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.417038334002427,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.471516541998426,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.526169791999564,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.581609624998237,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.635410499999125,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.685741791996406,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.73909874999663,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.793816291996336,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.846603042002243,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.90158595899993,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+21.95681108399731,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.009386083998834,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.064487584000744,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.119618958997307,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.173839083996427,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.228372334000596,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.28297449999809,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.334460958998534,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.388175375002902,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.442903417002526,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.496498708998843,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.550562584001455,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.60388158400019,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.65900425000291,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.710600541999156,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.763561458996264,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.814448500001163,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.864949959002843,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.918878292002773,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+22.970499958995788,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.025095625001995,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.078269666999404,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.129956709002727,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.18321499999729,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.23390274999838,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.28573308399791,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.338068208999175,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.39041445899784,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.44119441699877,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.49190120899584,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.546029208999244,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.59766583400051,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.651797583996085,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.702299584001594,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.753044999997655,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.80742541699874,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.85919387499598,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.91304449999734,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+23.967177749997063,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.01985958399746,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.072713249996013,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.12740395899891,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.179863833996933,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.233644084000844,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.28507137500128,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.339814583996485,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.393197666999185,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.443658208998386,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.496496291998483,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.55018562499754,2819719168,round_1_idle,"{""1.1"": ""complete""}",0,0
+24.606375374998606,2819801088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""text_preparation""}",0,0
+24.658965292001085,2819801088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""text_preparation"", ""2.2"": ""text_preparation""}",0,0
+24.718242249997274,2819817472,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,0
+24.768745208995824,2819751936,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,0
+24.82387695900252,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+24.874390375000075,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+24.9248862500026,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+24.97999445899768,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.0343815419983,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.08947720899596,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.141890083999897,3056467968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.196320292001474,3604496384,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.24947579199943,3724951552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.304586334001215,3740057600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.359482708998257,3877568512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.4115571250004,3933224960,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.466237374996126,3989766144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.520948666999175,4031365120,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.576043499997468,4000104448,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.631144624996523,3993370624,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.68448620900017,4058038272,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.73717954199674,4117921792,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.79106666699954,4117970944,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.84382066699618,4118003712,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.89701441700163,4118036480,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+25.952108874997066,4138926080,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.00648879200162,4170317824,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.060563375001948,4203036672,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.115709666999464,4265525248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.170779833999404,3959570432,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.23360979199788,3545497600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.31282737499714,3369287680,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.36308066699712,3039412224,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.41522641699703,2623864832,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.493668709001213,2570141696,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.55264266699669,2747842560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.604994749999605,2844295168,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.65968187499675,2905292800,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.7126811249982,2966568960,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.767757749999873,3098099712,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.822843417001422,3126657024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.873955834002118,3153870848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.925761459002388,3157164032,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+26.98151841700019,3181264896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.032928916996752,3256549376,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.08733945900167,3491364864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.14160187500238,3523608576,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.19543800000247,3611787264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.250521292000485,3629105152,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.3059882919988,3632676864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.36040787499951,3639017472,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.413906542002223,3642261504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.467865541999345,3645440000,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.52301558399631,3653435392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.580146624997724,3659382784,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.633214458997827,3662790656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.685592333997192,3668869120,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.736855333998392,3672064000,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.791890499996953,3677306880,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.84279466699809,3681533952,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.89762512499874,3684745216,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+27.95100754199666,3689988096,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.005324792000465,3694215168,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.05621566699847,3697426432,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.10694387499825,3702210560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.15784045899636,3706896384,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.213012375003018,3710091264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.267819209002482,3715334144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.322690000000875,3719561216,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.376471916999435,3722772480,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.430413417001546,3728015360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.485322084001382,3732242432,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.54042466700048,3735437312,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.594307749997824,3741761536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.6492842919979,3748085760,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.69981533400278,3748134912,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.75492491699697,3754115072,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.80991133399948,3760783360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.864965166998445,3764207616,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.918778583996755,3770269696,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+28.971486458998697,3773497344,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.025128708999546,3778215936,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.078618667001138,3782967296,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.133474499998556,3786178560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.184387499997683,3790503936,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.239483541998197,3795648512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.294296209001914,3798843392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.3493905419964,3804119040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.404546500001743,3811491840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.460812042001635,3812573184,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.515966917002515,3818881024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.57108766699821,3824173056,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.62604399999691,3825238016,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.677224917002604,3829465088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.729393834000803,3835658240,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.783468749999884,3833675776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.835962334000214,3837313024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.888692084001377,3841540096,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.94201416699798,3844751360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+29.992494416997943,3849994240,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.047379791998537,3855613952,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.10260133400152,3857399808,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.15769800000271,3862642688,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.208470042001863,3868475392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.260773750000226,3890970624,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.314464666997083,3896213504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.3663534169973,3903225856,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.42047262500273,3904700416,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.47350154200103,3910238208,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.52804658399691,3916300288,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.581827374997374,3917381632,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.636905833998753,3925803008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.691984749995754,3928981504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.747091334000288,3926081536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.804569833999267,3934519296,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.859211916998902,3968040960,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,1
+30.914419417000317,3935748096,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+30.969679624999117,3786522624,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.023249749996467,3786539008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.078354500001296,3786539008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.13357691699639,3656679424,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.185624917001405,3513794560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.240720750000037,3392192512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.295905874998425,3180511232,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.35516991699842,2990702592,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.449006458999065,2544320512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.502590167001472,2302935040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.554385709001508,2174369792,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.608340334001696,2006384640,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.658683000001474,1878605824,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.71072204200027,1912356864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.76252783399832,1979662336,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.816954125002667,2131116032,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.8675097919986,2099527680,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.92267954199633,2141405184,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+31.974089666997315,2169995264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.02867654200236,2188247040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.087667084000714,2177073152,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.14857370899699,2192834560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.20400966700254,2256011264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.25636379200296,2487681024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.308417624997674,2502541312,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.359909541999514,2502574080,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.41435204199661,2836889600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.464581334003014,2897592320,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.51968812500127,2913976320,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.5743795840026,2929197056,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.625191958999494,2956148736,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.67687224999827,3040313344,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.73164458399697,3048341504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.786765208998986,3090989056,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.8418671249965,3166879744,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.89224779199867,3498295296,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+32.94500120900193,3581378560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.000202916999115,3452469248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.0534585839996,3220946944,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.10833999999886,3160784896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.16343862500071,3287613440,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.21819245899678,3264380928,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.268516208998335,3205562368,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.32201270900259,3159212032,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.372442458996375,3278389248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.4275287499986,3411574784,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.48117199999979,3444277248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.53627020899876,3218767872,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.591368667002826,2878685184,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.64647229199909,2934571008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.701354042001185,3035856896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.753367917001015,3029762048,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.80683579199831,3031580672,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.85998645899963,3123593216,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.91428958399774,3188064256,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+33.966467291997105,3187146752,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.018521625002904,3171287040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.06927158399776,3148972032,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.123149624996586,3119054848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.17529033400206,3206053888,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.22855787500157,3211608064,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.28372129199852,3212689408,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.33448458399653,3222896640,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.38767525000003,3226124288,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.43915525000193,3227254784,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.49370554200141,3235692544,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.54804729200259,3239051264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.60166912499699,3241148416,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.65678754200053,3248996352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.71189791699726,3252207616,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.76387962499575,3257450496,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.81440937500156,3262496768,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.86770699999761,3265478656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.921763083999394,3270721536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+34.97507104199758,3275767808,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.029314375002286,3278176256,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.08347350000258,3283419136,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.134354125002574,3287646208,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.18945979199634,3290857472,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.24178241699701,3296116736,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.29508662500302,3302342656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.35014145899913,3304587264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.4032976669987,3310911488,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.454152749996865,3316203520,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.50854983399768,3317284864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.562471958997776,3326869504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.613245916996675,3330064384,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.667848749995755,3333210112,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.72113583399914,3339993088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.775646542002505,3343220736,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.82580233400222,3346497536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.8803294169993,3352690688,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.93541991699749,3355901952,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+35.988941083996906,3361177600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.042317958999774,3368550400,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.094868624997616,3369615360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.1500310420015,3377790976,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.20442420899781,3381248000,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.259497541999735,3386359808,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.31460599999991,3390717952,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.36841445900063,3288956928,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.4193825839975,3091087360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.47406700000283,2820423680,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.53118825000274,2782756864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.58755545900203,2786951168,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.64060670899926,2785460224,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.69680520900147,2767552512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.75192524999875,2714566656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.80413699999917,2714714112,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.85551562500041,2539683840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.90912450000178,2378088448,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+36.96462441699987,2081751040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.01642470899969,1907326976,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.07176829200034,1549549568,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.126009416999295,1490731008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.18023454200011,1500823552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.23321020900039,1503199232,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.28436016700289,1508442112,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.3379019999993,1515929600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.38897420899593,1515945984,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.44127595899772,1521254400,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.49217800000042,1528627200,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.54523354199773,1528659968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.59930291699857,1533935616,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.65023474999907,1538179072,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.70503112499864,1541357568,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.76095595899824,1546600448,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.8160462090018,1553989632,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.86818287499773,1554612224,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.91890454199893,1560608768,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+37.97402145899832,1581596672,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.029177666998294,1855651840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,1
+38.084297624998726,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.13944370899844,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.19452595899929,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.24858166700142,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.30250533400249,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.357607792000636,2107654144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.412704499998654,2190999552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.46293591699941,2242002944,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.52045158400142,1983447040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.57220245899953,1895792640,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.6286685840023,1872379904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.68379854199884,1967947776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.7372749999995,2053881856,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.792407708999235,2166947840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.84658354199928,2236628992,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.90064500000153,2098675712,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+38.95199529200181,2171748352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.00718600000255,2232205312,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.0611284589977,2281537536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.115135334002844,2352267264,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.167442459001904,2455339008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.22068716699869,2587344896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.275818916998105,2587344896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.33094545899803,2587361280,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.385357125000155,2761375744,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.44047108400264,2838822912,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.49231491699902,2838822912,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.546213458997954,2847948800,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.60086241699901,2904522752,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.65510083400295,2915811328,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.71018387500226,2950807552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.76526020900201,3686662144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.81659312499687,4195270656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.86764199999743,4314955776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.91937224999856,4402413568,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+39.97446058400237,4102373376,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.02956354199705,4058431488,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.08433733399579,4044292096,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.13818179199734,4043882496,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.193432375002885,4044554240,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.24374095899839,3971989504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.29882795899903,4040359936,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.353914541999984,4079517696,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.409004000001005,4229627904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.462768917001085,4200955904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.51472037500207,4138434560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.56851866700163,3992944640,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.62431916700007,3917365248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.679403583999374,3891920896,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.736170249998395,3525459968,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.79127908399823,3477995520,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.845918209000956,3277275136,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.89682187500148,3282255872,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+40.94769058399834,3286466560,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.00279491699621,3305291776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.05322429200169,3291873280,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.107691708995844,2274148352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.15945104199636,2287419392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.21578125000087,2290614272,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.271061209001346,2425929728,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.32575587499741,2484518912,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.376918791997014,2487681024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.431653334002476,2489958400,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.48609370899794,2497200128,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.53897662500094,2500411392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.59356429200125,2503688192,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.64611787499598,2509881344,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.70101412499935,2513076224,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.75558341699798,2516353024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.808386249998875,2522546176,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.86237237499881,2525757440,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.915680792000785,2529034240,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+41.96672337500058,2535227392,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.01938399999926,2538422272,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.07005950000166,2539634688,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.12375408400112,2545958912,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.17799487499724,2551267328,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.23147008399974,2552332288,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.28578600000037,2558656512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.341030875002616,2563932160,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.39149883399659,2564997120,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.44220074999612,2569224192,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.49731612500182,2576613376,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.5515630000009,2577432576,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.60691854199831,2583511040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.658797249998315,2589310976,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.712955292001425,2589343744,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.76761791700119,2596192256,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.82203937500162,2602008576,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.876380041998345,2605154304,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.92852604200016,2611478528,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+42.98369999999704,2614689792,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.03451058400242,2619932672,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.085618167002394,2624995328,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.14074450000044,2627354624,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.195362749997,2632597504,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.24717983399751,2636824576,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.301251999997476,2640429056,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.356398167001316,2645688320,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.409094083996024,2651340800,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.46235916700243,2653143040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.51547504199698,2658435072,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.57058433399652,2665807872,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.625150041996676,2668052480,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.67837487500219,2675294208,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.73350762500195,2678489088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.7859364169999,2681765888,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.83986204199755,2687959040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.89368687500246,2691170304,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+43.945110667002155,2694332416,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.0000910000017,2701672448,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.063461291996646,2703867904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.11920358399948,2703867904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.176569875002315,2703867904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.23041374999593,2704916480,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.286040792001586,2709110784,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.34153458399669,2716106752,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.39349937500083,2716516352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.44747529199958,2721759232,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.5025590419973,2727297024,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,1
+44.557659625003,2914123776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.610157083996455,3148677120,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.665274124999996,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.72040720900259,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.775514834000205,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.830647709000914,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.882754917001876,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.937162750000425,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+44.98909795899817,3266510848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.04190504200233,3494051840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.096990917001676,3751886848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.150008958997205,3770826752,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.20363324999926,3865903104,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.25830083400069,3893559296,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.31085316700046,3923542016,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.36378979199799,3959455744,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.41491033400234,3967041536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.470041916996706,3967041536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.52517112500209,4059873280,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.580264416996215,4142022656,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.63121954199596,4161044480,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.684888625000895,4161060864,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.738679374997446,4216766464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.790367292000155,4216782848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.8454563339983,4227268608,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.90055470899824,4249387008,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+45.952086958997825,4306337792,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.007387917001324,4229906432,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.06248670900095,4403445760,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.11757554199721,4308434944,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.168362750002416,4205281280,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.223453375001554,4192190464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.278524208995805,4009000960,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.33331412499683,4022157312,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.38345183400088,4141187072,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.43735341700085,4200611840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.488900292002654,4202905600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.54359620899777,4196024320,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.598812042000645,4268015616,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.65638591699826,4422107136,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.70824179200281,4459675648,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.76123445900157,4465917952,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.815541249998205,4466524160,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.87062524999783,4472848384,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.92471491699689,4477435904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+46.97664487500151,4482711552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.028521250002086,4460494848,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.08121024999855,4483579904,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.13479395899776,4488839168,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.188034375001735,4495458304,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.24213441699976,4471046144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.29724395900121,4405772288,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.347808624996105,4413128704,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.40122354200139,4413849600,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.45689429200138,4421222400,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.51208412500273,4426530816,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.564962459000526,4367925248,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.61810512500233,4373741568,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.671069333999185,4376936448,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.72170791700046,4380737536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.77452745899791,4393353216,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.82773029199598,4396957696,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.87792566700227,4402200576,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.93161741700169,4409606144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+47.98672695899586,4410638336,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.03733245899639,4418535424,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.089436499998556,4422287360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.14196266699582,4425433088,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.19447508399753,4431757312,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.245858084002975,4434952192,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.29993275000015,4438097920,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.35038170900225,4444422144,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.40548654199665,4447649792,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.46030150000297,4450959360,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.5128394170024,4457152512,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.56442916699598,4460363776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.61909524999646,4464951296,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.67258249999577,4470849536,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.72722862500086,4473028608,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.78080233399669,4478304256,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.83587824999995,4485677056,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.890954875001626,4486758400,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.94266604199947,4495179776,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+48.996121124997444,4498391040,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.04721191700082,4501667840,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.1016496250013,4507860992,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.15197104199615,4511072256,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.207143209001515,4514611200,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.25899200000276,4520542208,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.311157999996794,4523753472,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.36472925000271,4528996352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.41706445899763,4533223424,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.468145583996375,4536401920,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.52306208400114,4541644800,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.577722666996124,4549050368,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.6305422919977,4549066752,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.68537920899689,4554326016,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.738345083998865,4559372288,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.790805459000694,4561764352,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.84248258399748,4578967552,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.90310299999692,4584243200,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+49.95709554199857,4587454464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+50.01219449999917,4587454464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+50.06464845899609,4587454464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+50.11948054200184,4587454464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+50.17461858400202,4587454464,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""streaming_inference"", ""2.2"": ""streaming_inference""}",0,2
+50.25452762500208,4593385472,round_2_requests_2,"{""1.1"": ""complete"", ""2.1"": ""ctc_alignment"", ""2.2"": ""streaming_inference""}",0,0
+50.30929970899888,4597383168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.36438179200195,4597383168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.41945754199696,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.473796334001236,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.524731375000556,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.57883141699858,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.63311191699904,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.68702058400231,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.73972091700125,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.79432079199614,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.84536345899687,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.9004295420018,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+50.95342454199999,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.00641645900032,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.056673792001675,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.110472749998735,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.16201516699948,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.21626149999793,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.26921445899643,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.32065408399649,4597399552,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.37572995899973,4527718400,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.43083812500117,4362698752,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.48594874999981,4126441472,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.54103416699945,3749134336,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.594352084001,3393699840,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.64859020899894,3211067392,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.70496029200149,3009101824,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.75763916700089,2879488000,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.8127663339983,2608545792,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.863421666996146,2392211456,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.91352058399934,2205548544,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+51.96860125000239,2205548544,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.023720666999,2156085248,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.0777319589979,2156085248,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.12947254200117,1952645120,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.17999416699604,1924038656,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.23054895899986,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.28176583399909,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.33691729199927,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.39207679199899,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.447473416999856,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.49834874999942,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.55304683400027,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.605606334000186,1883734016,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.659798209002474,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.71467091699742,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.76937058399926,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.82430291699711,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.879552042002615,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.9325907090024,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+52.98411358399608,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.03873154200119,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.092559333999816,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.143585124998935,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.194028083999,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.24682154200127,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.30059079200146,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.35478104199865,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.406403291999595,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.46064829199895,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.51565520899749,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.57080270900042,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.62559124999825,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.67645241699938,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.731780709000304,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.78569124999922,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.84030758399604,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.892320667000604,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+53.947037334000925,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.000583333996474,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.054965374998574,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.11018937500194,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.161164334000205,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.21307274999708,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.2677150840027,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.3223099589959,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.37747133400262,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.42894387499837,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.48372829199798,1883766784,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.53705600000103,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.590508041997964,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.644154374997015,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.697049417001836,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.75224624999828,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.804644958996505,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.85712629200134,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.90983904199675,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+54.964725666999584,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.01949129199784,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.07184525000048,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.1237005840012,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.17853741699946,1883783168,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.230950249999296,1883750400,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.281740999998874,1883750400,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0
+55.30015475000255,1885192192,round_2_idle,"{""1.1"": ""complete"", ""2.1"": ""complete"", ""2.2"": ""complete""}",0,0

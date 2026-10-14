@@ -1,0 +1,127 @@
+[
+  {
+    "seconds": 2.8420901670033345,
+    "request": "1.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 2.888903459002904,
+    "request": "1.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 21.803335500000685,
+    "request": "1.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 21.833961750002345,
+    "request": "1.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 21.835505750001175,
+    "request": "1.1",
+    "stage": "complete"
+  },
+  {
+    "seconds": 31.844600459000503,
+    "request": "2.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 31.851500750002742,
+    "request": "2.2",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 31.91447262500151,
+    "request": "2.2",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 31.933363791999,
+    "request": "2.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 54.49670637500094,
+    "request": "2.2",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 54.52973475000181,
+    "request": "2.2",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 54.53148691700335,
+    "request": "2.2",
+    "stage": "complete"
+  },
+  {
+    "seconds": 54.55160341699957,
+    "request": "2.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 54.58227591699688,
+    "request": "2.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 54.5837267090028,
+    "request": "2.1",
+    "stage": "complete"
+  },
+  {
+    "seconds": 64.59605016699788,
+    "request": "3.2",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 64.60533187499823,
+    "request": "3.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 64.66236083400145,
+    "request": "3.2",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 64.71263016699959,
+    "request": "3.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 88.50469875000272,
+    "request": "3.2",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 88.53707562499767,
+    "request": "3.2",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 88.53883058400243,
+    "request": "3.2",
+    "stage": "complete"
+  },
+  {
+    "seconds": 88.62073116700049,
+    "request": "3.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 88.65190874999826,
+    "request": "3.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 88.65381887499825,
+    "request": "3.1",
+    "stage": "complete"
+  }
+]

@@ -1,0 +1,8 @@
+metric,value,unit
+request_1,122.01455649999843,seconds
+request_2,122.85868600000686,seconds
+both_requests_complete,122.86164158299653,seconds
+os_peak_combined_process,2.3659210205078125,GiB
+average_combined_process,1.7214011536969545,GiB
+idle_after_ten_seconds,1.1939239501953125,GiB
+identical_word_timings,True,boolean

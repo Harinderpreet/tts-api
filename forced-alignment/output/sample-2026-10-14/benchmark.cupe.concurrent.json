@@ -1,0 +1,107 @@
+{
+  "model": "Tabahi/CUPE-2i / multi_mswc38_ug20_e59_val_GER=0.5611.ckpt",
+  "parameters": 30087256,
+  "backend": "pytorch",
+  "dtype": "float32",
+  "device": "cpu",
+  "versions": {
+    "bournemouth-forced-aligner": "1.1.5",
+    "torch": "2.14.1",
+    "torchaudio": "2.11.0",
+    "phonemizer": "3.4.0"
+  },
+  "phonemizer_library": "/opt/homebrew/opt/espeak/lib/libespeak.dylib",
+  "torch_cpu_threads": 6,
+  "torch_interop_threads": 10,
+  "shared_model": true,
+  "requests": 2,
+  "model_window_ms": 120,
+  "model_stride_ms": 80,
+  "window_batch_size": 64,
+  "silence_anchors": 10,
+  "reference_timings_used_as_input": false,
+  "decoder_impossible_state_score": "-Infinity (fixes upstream -1000 sentinel for long audio)",
+  "dependency_import_seconds": 0.7697247920004884,
+  "model_load_seconds": 1.1750479170004837,
+  "processing_seconds_excluding_setup": 78.57102183299867,
+  "total_seconds_including_imports_and_model_loading": 80.56952974999876,
+  "peak_process_ram_bytes": 2139373568,
+  "peak_process_ram_gib": 1.9924468994140625,
+  "peak_after_imports_bytes": 212484096,
+  "peak_after_model_loading_bytes": 461553664,
+  "maximum_overlapping_model_calls": 2,
+  "model_batch_calls": 48,
+  "results": [
+    {
+      "request": 1,
+      "seconds": 78.21218037500512,
+      "word_count": 305,
+      "overlapping_adjacent_words": 0,
+      "out_of_bounds_words": 0,
+      "output": "words.cupe.concurrent.1.srt"
+    },
+    {
+      "request": 2,
+      "seconds": 78.57074999999895,
+      "word_count": 305,
+      "overlapping_adjacent_words": 0,
+      "out_of_bounds_words": 0,
+      "output": "words.cupe.concurrent.2.srt"
+    }
+  ],
+  "concurrent_outputs_byte_identical": true,
+  "input_sha256": {
+    "speech.mp3": "86c6d2d82f081765f9e95bc52d8cdd34869c180c4dd4f72f9efb1087d9309dd7",
+    "transcript.txt": "c248fc9674b9b16cca15b572530f8fae55daffa75e31e731ae7142c516a644d1"
+  },
+  "comparisons": {
+    "words.lightweight.comparison.srt": {
+      "words": 305,
+      "changed_words": 305,
+      "mean_boundary_difference_ms": 113.95901639344262,
+      "median_boundary_difference_ms": 73.0,
+      "p95_boundary_difference_ms": 536,
+      "max_boundary_difference_ms": 707,
+      "words_both_boundaries_within_ms": {
+        "20": 3,
+        "50": 21,
+        "100": 136,
+        "200": 237,
+        "500": 268,
+        "1000": 305
+      }
+    },
+    "words.int8.batch1.srt": {
+      "words": 305,
+      "changed_words": 305,
+      "mean_boundary_difference_ms": 114.15573770491804,
+      "median_boundary_difference_ms": 73.0,
+      "p95_boundary_difference_ms": 536,
+      "max_boundary_difference_ms": 707,
+      "words_both_boundaries_within_ms": {
+        "20": 3,
+        "50": 20,
+        "100": 135,
+        "200": 237,
+        "500": 268,
+        "1000": 305
+      }
+    },
+    "words.srt": {
+      "words": 305,
+      "changed_words": 305,
+      "mean_boundary_difference_ms": 113.50983606557377,
+      "median_boundary_difference_ms": 72.5,
+      "p95_boundary_difference_ms": 536,
+      "max_boundary_difference_ms": 707,
+      "words_both_boundaries_within_ms": {
+        "20": 3,
+        "50": 21,
+        "100": 136,
+        "200": 237,
+        "500": 268,
+        "1000": 305
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "concurrent-defaults",
+  "window_seconds": 10,
+  "context_each_side_seconds": 2,
+  "audio_duration_seconds": 600.0,
+  "transcript_words": 1554,
+  "transcript_characters": 9171,
+  "audio_path": "/Users/harinderpreetsingh/Desktop/Programming/speechma/forced-alignment/output/ten-minute-2026-10-14/speech.mp3",
+  "audio_sha256": "1d83344e333e042ac47d86a5a9fbeb82ed3630e53079512b546d08c02e82de6c",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "compute_type": "int8_float32",
+  "intra_threads": 4,
+  "workers": 2,
+  "streaming": true,
+  "imports_seconds": 0.24667837499873713,
+  "model_load_seconds": 1.8997089999975287,
+  "os_peak_process_gib": 2.3659210205078125,
+  "maximum_observed_running_batches": 2,
+  "heavy_imports": [],
+  "memory_sampling_seconds": 0.05,
+  "idle_seconds_after_each_round": 10.0,
+  "rounds": [
+    {
+      "round": 1,
+      "requests": 2,
+      "start_seconds": 3.152404000000388,
+      "end_seconds": 126.01404558299691,
+      "processing_seconds": 122.86164158299653,
+      "memory_during_processing": {
+        "sampled_peak_rss_gib": 2.3335113525390625,
+        "mean_rss_gib": 1.7214011536969545,
+        "approx_seconds_above_90_percent_of_peak": 16.179108705990075,
+        "approx_seconds_above_gib": {
+          "1": 121.33735595901089,
+          "2": 20.634967375990527,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.8871193750019302,
+        "last_rss_gib": 1.1546630859375
+      },
+      "memory_during_idle": {
+        "sampled_peak_rss_gib": 1.1939239501953125,
+        "mean_rss_gib": 1.1939239501953125,
+        "approx_seconds_above_90_percent_of_peak": 9.978873624997505,
+        "approx_seconds_above_gib": {
+          "1": 9.978873624997505,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.05901358300616266,
+        "last_rss_gib": 1.1939239501953125
+      },
+      "results": [
+        {
+          "request": 1,
+          "seconds": 122.01455649999843,
+          "srt": "words.1.1.srt",
+          "comparison": null,
+          "words": 1554,
+          "srt_sha256": "b1eff03c14be1c42462503eeb4be42bdb4ac886e1acd8d859400f45e54157bd2"
+        },
+        {
+          "request": 2,
+          "seconds": 122.85868600000686,
+          "srt": "words.1.2.srt",
+          "comparison": null,
+          "words": 1554,
+          "srt_sha256": "b1eff03c14be1c42462503eeb4be42bdb4ac886e1acd8d859400f45e54157bd2"
+        }
+      ],
+      "all_srt_files_identical": true
+    }
+  ]
+}

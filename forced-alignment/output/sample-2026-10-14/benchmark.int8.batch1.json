@@ -1,0 +1,30 @@
+{
+  "offline_cached_model": true,
+  "backend": "ctranslate2",
+  "batch_size": 1,
+  "model_details": {
+    "class": "CTranslate2AlignmentModel",
+    "compute_type": "int8_float32"
+  },
+  "device": "cpu",
+  "audio_duration_seconds": 118.152,
+  "transcript_characters": 1781,
+  "words": 305,
+  "total_seconds_including_imports_and_cached_model_load": 20.614686041000823,
+  "dependency_import_seconds": 3.649369291997573,
+  "cached_model_load_seconds": 0.09200854099617573,
+  "generation_seconds_excluding_imports_and_model_load": 16.85899912600871,
+  "peak_process_ram_bytes": 4377427968,
+  "peak_process_ram_gib": 4.0767974853515625,
+  "stage_seconds": {
+    "load_alignment_model": 0.09200854099617573,
+    "load_audio": 0.1288974999988568,
+    "preprocess_text": 0.02787837500363821,
+    "generate_emissions": 16.63306904199999,
+    "get_alignments": 0.030992207997769583,
+    "get_spans": 0.014113249999354593,
+    "postprocess_results": 0.0005767499969806522
+  },
+  "output_matches_previous_srt": false,
+  "output_matches_int8_batch4_srt": true
+}

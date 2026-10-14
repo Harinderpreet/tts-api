@@ -1,0 +1,80 @@
+{
+  "hardware": {
+    "cpu": "Apple M2 Pro",
+    "logical_cpus": 10,
+    "total_memory_bytes": 17179869184
+  },
+  "audio_duration_seconds": 600.0,
+  "words_per_request": 1554,
+  "request_seconds": [
+    122.01455649999843,
+    122.85868600000686
+  ],
+  "both_requests_finished_seconds": 122.86164158299653,
+  "aggregate_audio_seconds_per_processing_second": 9.76708421390712,
+  "imports_seconds": 0.24667837499873713,
+  "model_load_seconds": 1.8997089999975287,
+  "os_peak_process_gib": 2.3659210205078125,
+  "processing_memory": {
+    "sampled_peak_rss_gib": 2.3335113525390625,
+    "mean_rss_gib": 1.7214011536969545,
+    "approx_seconds_above_90_percent_of_peak": 16.179108705990075,
+    "approx_seconds_above_gib": {
+      "1": 121.33735595901089,
+      "2": 20.634967375990527,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "maximum_sample_gap_seconds": 0.8871193750019302,
+    "last_rss_gib": 1.1546630859375
+  },
+  "idle_memory": {
+    "sampled_peak_rss_gib": 1.1939239501953125,
+    "mean_rss_gib": 1.1939239501953125,
+    "approx_seconds_above_90_percent_of_peak": 9.978873624997505,
+    "approx_seconds_above_gib": {
+      "1": 9.978873624997505,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "maximum_sample_gap_seconds": 0.05901358300616266,
+    "last_rss_gib": 1.1939239501953125
+  },
+  "idle_observation_seconds": 10.0,
+  "concurrent_inference_batches_observed": 2,
+  "srt_byte_identical": true,
+  "word_timing_comparison_between_requests": {
+    "words": 1554,
+    "changed_words": 0,
+    "mean_boundary_difference_ms": 0.0,
+    "median_boundary_difference_ms": 0.0,
+    "p95_boundary_difference_ms": 0,
+    "max_boundary_difference_ms": 0,
+    "words_both_boundaries_within_ms": {
+      "20": 1554,
+      "50": 1554,
+      "100": 1554,
+      "200": 1554,
+      "500": 1554,
+      "1000": 1554
+    }
+  },
+  "method": "Two concurrent calls to one persistent AlignmentService in one fresh process, shared cached int8_float32 model, two workers, four threads per worker, ten-second windows with two-second context on each side, streaming decode, batch size one. Processing excludes synthesis, imports, model loading and downloads. RAM is combined alignment-process RSS, excluding separate FFmpeg child processes and other apps. This is one local run; word agreement is not human-annotated accuracy.",
+  "request_phase_seconds": {
+    "1": {
+      "text_preparation": 0.39570108400221216,
+      "streaming_inference": 120.75717825000174,
+      "ctc_alignment": 0.847896999999648,
+      "word_boundaries": 0.00903604099585209
+    },
+    "2": {
+      "text_preparation": 0.37482016600552015,
+      "streaming_inference": 121.63999049999984,
+      "ctc_alignment": 0.8072441249969415,
+      "word_boundaries": 0.02691262499865843
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "invalid_request_status": 400,
+  "successful_requests": 3,
+  "one_then_two_concurrent": true,
+  "all_srts_identical": true,
+  "model_reused": true,
+  "words": 305,
+  "window": 10,
+  "threads": 4,
+  "test_server_stopped_after_check": true
+}

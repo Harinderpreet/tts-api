@@ -1,0 +1,2 @@
+git+https://github.com/michsethowusu/fast-forced-aligner.git@84cc35846489f5b1567840bbd6e0759204685536
+ctranslate2==4.8.3

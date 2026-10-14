@@ -1,0 +1,77 @@
+[
+  {
+    "seconds": 2.8952840830024797,
+    "request": "1.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 2.945793250000861,
+    "request": "1.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 53.05605995800579,
+    "request": "1.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 53.08734933300002,
+    "request": "1.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 53.0891473330048,
+    "request": "1.1",
+    "stage": "complete"
+  },
+  {
+    "seconds": 58.103719292004826,
+    "request": "2.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 58.116486833001545,
+    "request": "2.2",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 58.192813583002135,
+    "request": "2.2",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 58.19404591700004,
+    "request": "2.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 113.53246487500292,
+    "request": "2.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 113.56346745799965,
+    "request": "2.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 113.56559554200066,
+    "request": "2.1",
+    "stage": "complete"
+  },
+  {
+    "seconds": 113.56826933300181,
+    "request": "2.2",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 113.5994738330046,
+    "request": "2.2",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 113.60123691700574,
+    "request": "2.2",
+    "stage": "complete"
+  }
+]

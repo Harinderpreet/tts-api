@@ -1,0 +1,68 @@
+{
+  "sample": {
+    "audio_seconds": 118.152,
+    "words": 305,
+    "language": "English",
+    "input_sha256": {
+      "speech.mp3": "86c6d2d82f081765f9e95bc52d8cdd34869c180c4dd4f72f9efb1087d9309dd7",
+      "transcript.txt": "c248fc9674b9b16cca15b572530f8fae55daffa75e31e731ae7142c516a644d1"
+    }
+  },
+  "single": {
+    "current_processing_seconds": 18.905705209006555,
+    "cupe_processing_seconds": 49.74889670799894,
+    "current_total_seconds": 20.838762500003213,
+    "cupe_total_seconds": 52.449615167002776,
+    "current_peak_gib": 2.858551025390625,
+    "cupe_peak_gib": 1.2567901611328125,
+    "ram_reduction_percent": 56.03401338756686
+  },
+  "two_concurrent": {
+    "current_both_seconds": 24.100400750001427,
+    "cupe_both_seconds": 78.57102183299867,
+    "current_total_seconds": 25.957351791999827,
+    "cupe_total_seconds": 80.56952974999876,
+    "current_combined_peak_gib": 4.7413482666015625,
+    "cupe_combined_peak_gib": 1.9924468994140625,
+    "ram_reduction_percent": 57.97720843564649
+  },
+  "word_timing_comparison": {
+    "words": 305,
+    "changed_words": 305,
+    "mean_boundary_difference_ms": 113.95901639344262,
+    "median_boundary_difference_ms": 73.0,
+    "p95_boundary_difference_ms": 536,
+    "max_boundary_difference_ms": 707,
+    "words_both_boundaries_within_ms": {
+      "20": 3,
+      "50": 21,
+      "100": 136,
+      "200": 237,
+      "500": 268,
+      "1000": 305
+    }
+  },
+  "all_cupe_single_concurrent_srts_identical": true,
+  "all_current_old_fresh_single_concurrent_srts_identical": true,
+  "quality": {
+    "all_1195_phoneme_indices_present_in_order": true,
+    "estimated_phonemes": 0,
+    "phonemes_below_0_5_confidence": 923,
+    "total_phonemes": 1195,
+    "upstream_bad_alignment_flag": true,
+    "manually_annotated_ground_truth": false
+  },
+  "notes": [
+    "One run per configuration, fresh processes, cached checkpoints, offline mode.",
+    "Timing excludes installation and model downloads. Processing time also excludes imports/model loading.",
+    "CUPE uses 64-window inference batches and a local negative-infinity decoder fix, not unmodified BFA.",
+    "MSWC38 multilingual checkpoint tested on English audio only.",
+    "BFA uses existing eSpeak 1.48 for this sample. No persistent API service was added."
+  ],
+  "source_reports": [
+    "benchmark.cupe.single.json",
+    "benchmark.cupe.concurrent.json",
+    "benchmark.current.cupecomparison.json",
+    "benchmark.current.concurrent.cupecomparison.json"
+  ]
+}

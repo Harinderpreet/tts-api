@@ -1,0 +1,52 @@
+[
+  {
+    "seconds": 3.1541599159972975,
+    "request": "1.1",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 3.159538624997367,
+    "request": "1.2",
+    "stage": "text_preparation"
+  },
+  {
+    "seconds": 3.5343587910028873,
+    "request": "1.2",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 3.5498609999995097,
+    "request": "1.1",
+    "stage": "streaming_inference"
+  },
+  {
+    "seconds": 124.30703925000125,
+    "request": "1.1",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 125.1549362500009,
+    "request": "1.1",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 125.16397229099675,
+    "request": "1.1",
+    "stage": "complete"
+  },
+  {
+    "seconds": 125.17434929100273,
+    "request": "1.2",
+    "stage": "ctc_alignment"
+  },
+  {
+    "seconds": 125.98159341599967,
+    "request": "1.2",
+    "stage": "word_boundaries"
+  },
+  {
+    "seconds": 126.00850604099833,
+    "request": "1.2",
+    "stage": "complete"
+  }
+]

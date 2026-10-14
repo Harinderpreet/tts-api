@@ -1,0 +1,154 @@
+{
+  "name": "stream-10s-t4",
+  "window_seconds": 10,
+  "context_each_side_seconds": 2,
+  "intra_threads": 4,
+  "workers": 2,
+  "streaming": true,
+  "imports_seconds": 0.1351104579953244,
+  "model_load_seconds": 1.8035546250030166,
+  "os_peak_process_gib": 2.67138671875,
+  "maximum_observed_running_batches": 2,
+  "heavy_imports": [],
+  "memory_sampling_seconds": 0.05,
+  "idle_seconds_after_each_round": 5,
+  "rounds": [
+    {
+      "round": 1,
+      "requests": 1,
+      "start_seconds": 2.942372165998677,
+      "end_seconds": 21.578491749998648,
+      "processing_seconds": 18.63611958399997,
+      "memory_during_processing": {
+        "sampled_peak_rss_gib": 1.6092071533203125,
+        "mean_rss_gib": 1.5541766435076674,
+        "approx_seconds_above_90_percent_of_peak": 16.633979126003396,
+        "approx_seconds_above_gib": {
+          "1": 18.057067125002504,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.05526162500609644,
+        "last_rss_gib": 1.5746307373046875
+      },
+      "memory_during_idle": {
+        "sampled_peak_rss_gib": 1.575469970703125,
+        "mean_rss_gib": 1.5754699707031246,
+        "approx_seconds_above_90_percent_of_peak": 4.977463916002307,
+        "approx_seconds_above_gib": {
+          "1": 4.977463916002307,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.05522962499526329,
+        "last_rss_gib": 1.575469970703125
+      },
+      "results": [
+        {
+          "request": 1,
+          "seconds": 18.635023124996223,
+          "srt": "words.1.1.srt",
+          "comparison": {
+            "words": 305,
+            "changed_words": 28,
+            "mean_boundary_difference_ms": 0.9180327868852459,
+            "median_boundary_difference_ms": 0.0,
+            "p95_boundary_difference_ms": 0,
+            "max_boundary_difference_ms": 20,
+            "words_both_boundaries_within_ms": {
+              "20": 305,
+              "50": 305,
+              "100": 305,
+              "200": 305,
+              "500": 305,
+              "1000": 305
+            }
+          }
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "requests": 2,
+      "start_seconds": 26.5863043749996,
+      "end_seconds": 48.93041541599814,
+      "processing_seconds": 22.34411104099854,
+      "memory_during_processing": {
+        "sampled_peak_rss_gib": 2.67138671875,
+        "mean_rss_gib": 2.550033770402788,
+        "approx_seconds_above_90_percent_of_peak": 17.92776820900326,
+        "approx_seconds_above_gib": {
+          "1": 22.301803750000545,
+          "2": 21.86715012499917,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.07758512500004144,
+        "last_rss_gib": 2.6672821044921875
+      },
+      "memory_during_idle": {
+        "sampled_peak_rss_gib": 2.6672210693359375,
+        "mean_rss_gib": 2.667221069335937,
+        "approx_seconds_above_90_percent_of_peak": 4.901974625005096,
+        "approx_seconds_above_gib": {
+          "1": 4.901974625005096,
+          "2": 4.901974625005096,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "maximum_sample_gap_seconds": 0.05603020799753722,
+        "last_rss_gib": 2.6672210693359375
+      },
+      "results": [
+        {
+          "request": 1,
+          "seconds": 22.310000208002748,
+          "srt": "words.2.1.srt",
+          "comparison": {
+            "words": 305,
+            "changed_words": 28,
+            "mean_boundary_difference_ms": 0.9180327868852459,
+            "median_boundary_difference_ms": 0.0,
+            "p95_boundary_difference_ms": 0,
+            "max_boundary_difference_ms": 20,
+            "words_both_boundaries_within_ms": {
+              "20": 305,
+              "50": 305,
+              "100": 305,
+              "200": 305,
+              "500": 305,
+              "1000": 305
+            }
+          }
+        },
+        {
+          "request": 2,
+          "seconds": 22.343141874996945,
+          "srt": "words.2.2.srt",
+          "comparison": {
+            "words": 305,
+            "changed_words": 28,
+            "mean_boundary_difference_ms": 0.9180327868852459,
+            "median_boundary_difference_ms": 0.0,
+            "p95_boundary_difference_ms": 0,
+            "max_boundary_difference_ms": 20,
+            "words_both_boundaries_within_ms": {
+              "20": 305,
+              "50": 305,
+              "100": 305,
+              "200": 305,
+              "500": 305,
+              "1000": 305
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

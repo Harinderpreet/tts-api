@@ -1,0 +1,24 @@
+{
+  "offline_cached_model": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "audio_duration_seconds": 118.152,
+  "transcript_characters": 1781,
+  "words": 305,
+  "total_seconds_including_imports_and_cached_model_load": 16.13009316699754,
+  "dependency_import_seconds": 4.44972741699894,
+  "cached_model_load_seconds": 0.6743382499989821,
+  "generation_seconds_excluding_imports_and_model_load": 10.971898125004373,
+  "peak_process_ram_bytes": 5474779136,
+  "peak_process_ram_gib": 5.098785400390625,
+  "stage_seconds": {
+    "load_alignment_model": 0.6743382499989821,
+    "load_audio": 0.2071706249989802,
+    "preprocess_text": 0.027991291994112544,
+    "generate_emissions": 10.69168274999538,
+    "get_alignments": 0.03915666700049769,
+    "get_spans": 0.0008771249995334074,
+    "postprocess_results": 0.0008812499945634045
+  },
+  "output_matches_previous_srt": true
+}
