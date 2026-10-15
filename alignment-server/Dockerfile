@@ -29,14 +29,12 @@ ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 \
     ALIGNMENT_HOST=0.0.0.0 ALIGNMENT_PORT=8000 \
     ALIGNMENT_WORKERS=1 ALIGNMENT_CPU_THREADS=2 \
     ALIGNMENT_WINDOW_SECONDS=10 ALIGNMENT_BATCH_SIZE=1 \
-    ALIGNMENT_MAX_QUEUED=4 ALIGNMENT_QUEUE_TIMEOUT=600
+    ALIGNMENT_MAX_QUEUED=4 ALIGNMENT_QUEUE_TIMEOUT=600 ALIGNMENT_MAX_UPLOAD_MB=100
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg libgomp1 ca-certificates \
     && rm -rf /var/lib/apt/lists/* \
     && groupadd --gid 10001 alignment \
-    && useradd --uid 10001 --gid alignment --create-home alignment \
-    && mkdir -p /data/audio \
-    && chown alignment:alignment /data/audio
+    && useradd --uid 10001 --gid alignment --create-home alignment
 COPY requirements.txt ./
 RUN python -m pip install --no-cache-dir -r requirements.txt
 COPY --from=native-build /wheels /wheels

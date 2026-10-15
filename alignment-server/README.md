@@ -4,15 +4,15 @@ An independent Docker project for a **2-core CPU / 8 GB RAM server**. This
 directory can become its own Git repository. It does not import files from
 Speechma or the original `forced-alignment` experiments.
 
-Given an audio path and its transcript, the API returns one subtitle cue per
-word. It uses the multilingual MMS model through the lightweight CTranslate2
+Upload an audio file and its transcript to receive word-level timestamps and
+one subtitle cue per word. It uses the multilingual MMS model through the lightweight CTranslate2
 int8 backend, with one persistent model, two inference threads, ten-second
 windows, and streaming decoding. One request runs at a time; four additional
 requests can wait in arrival order. Batch size defaults to one.
 
-**Status:** code prepared and source-reviewed; the Docker image has not been
-built, and the queue/batch changes have not been tested. No server performance
-claim is made until you run it on your machine.
+**Status:** the upload API changes are prepared but have not been tested,
+built into an image, or deployed. Rebuild and redeploy to replace the previous
+JSON path-based API. No server performance claim is made until measured.
 
 ## Build and run
 
@@ -20,7 +20,6 @@ Run everything below from this directory, preferably on the target server:
 
 ```sh
 docker build -t forced-alignment:local .
-mkdir -p audio
 docker compose up -d --no-build
 ```
 
@@ -41,8 +40,8 @@ build is not automatically the right architecture for an x86 Linux server.
 Compose limits the container to two CPUs and 6 GiB memory, leaving roughly
 2 GiB for the operating system and other services. It disables additional swap
 allowance for this container. These are runtime limits, not build limits.
-It publishes port **8000 on the host's loopback interface** and mounts `audio/`
-read-only at `/data/audio`. To change only the published host port:
+It publishes port **8000 on the host's loopback interface**. No shared audio
+directory or volume is needed for API uploads. To change only the published host port:
 
 ```sh
 ALIGNMENT_PUBLISHED_PORT=9000 docker compose up -d --no-build
@@ -54,12 +53,11 @@ Or run the built image without Compose:
 docker run -d --name alignment --init --restart unless-stopped \
   --cpus 2 --memory 6g --memory-swap 6g \
   -p 127.0.0.1:8000:8000 \
-  -v "$PWD/audio:/data/audio:ro" \
   forced-alignment:local
 ```
 
-The image runs as UID/GID **10001**. Mounted audio files and their directories
-must be readable/traversable by that user. Run only one service container for
+The image runs as UID/GID **10001** and uses its writable temporary directory
+for uploads. Run only one service container for
 this two-core configuration; extra replicas duplicate the model and queue.
 
 ## API
@@ -67,24 +65,34 @@ this two-core configuration; extra replicas duplicate the model and queue.
 `GET /health` returns HTTP 200 after the model is loaded:
 
 ```json
-{"status":"ready","active_requests":0,"queued_requests":0}
+{"status":"ready","audio_upload":true,"active_requests":0,"queued_requests":0}
 ```
 
 Docker uses this endpoint for its health check without running inference.
 
-Copy your audio into `audio/`, then send `POST /align`:
+Send `POST /align` as multipart form data:
+
+| Field | Required | Value |
+| --- | --- | --- |
+| `audio` | Yes | Audio file uploaded from the client |
+| `transcript` | Yes | Spoken transcript as text or a UTF-8 text file |
+| `language` | No | ISO 639-3 language code; defaults to `eng` (English) |
 
 ```sh
-curl --fail-with-body http://127.0.0.1:8000/align \
-  -H 'Content-Type: application/json' \
-  --data '{"audio_path":"/data/audio/speech.mp3","transcript":"Hello world.","language":"eng"}'
+curl --fail-with-body --max-time 1800 https://testingspeech.crikk.com/align \
+  --form 'audio=@speech.mp3' \
+  --form 'transcript=<transcript.txt' \
+  --form 'language=eng' \
+  --output alignment.json
 ```
 
-Use the exact transcript spoken in your audio. `language` is an ISO 639-3 code;
-`eng` means English. `audio_path` is the **path inside the container**, not the
-host filesystem path or a URL. The API reads existing files; it is not an
-upload endpoint. A colocated application can share the same audio mount, or
-another container can call `http://alignment:8000/align` on the Compose network.
+Both files are on the client running curl; curl uploads them to the server.
+For inline text, use `--form-string 'transcript=Hello world.'` instead of the
+transcript-file field. Use the exact transcript spoken in your audio.
+Let curl set Content-Type and its multipart boundary automatically.
+For local access, use `http://127.0.0.1:8000/align`; another container on the
+Compose network can use `http://alignment:8000/align`.
+JSON requests containing `audio_path` are no longer accepted.
 
 Successful response:
 
@@ -95,35 +103,29 @@ Successful response:
 }
 ```
 
-The example timing is illustrative. Save the returned `srt` value to your
-chosen `.srt` file. HTTP requests themselves do not write audio or SRT files.
-For a transcript file, this Python client example avoids manual JSON escaping:
+The example timing is illustrative; `start` and `end` are seconds from the
+beginning of the audio. Save the returned `srt` value from `alignment.json`:
 
 ```python
 import json
 from pathlib import Path
-from urllib.request import Request, urlopen
-
-body = {
-    "audio_path": "/data/audio/speech.mp3",
-    "transcript": Path("transcript.txt").read_text(encoding="utf-8"),
-    "language": "eng",
-}
-request = Request(
-    "http://127.0.0.1:8000/align",
-    data=json.dumps(body).encode(),
-    headers={"Content-Type": "application/json"},
-)
-with urlopen(request, timeout=1800) as response:
-    result = json.load(response)
+result = json.loads(Path("alignment.json").read_text(encoding="utf-8"))
 with Path("words.srt").open("x", encoding="utf-8") as output:
     output.write(result["srt"])
 ```
 
-Error responses: 400 for invalid input, 503 if the waiting queue is full, 504
-if a request waits too long, and 500 if alignment fails. Queue timeout defaults
+Audio streams to temporary disk storage and is deleted after success or
+failure. The server does not retain audio or SRT files. The entire multipart
+request is limited to 100 MiB by default; transcript text is limited to 2 MiB.
+At most five requests may be uploading, waiting, or processing with the default
+settings. An upload times out after 60 seconds without incoming data.
+
+Error responses: 400 for invalid input, 408 for an upload timeout, 411 for
+missing Content-Length or unsupported chunked transfer, 413 for oversized
+uploads, 415 for non-multipart requests, 503 if upload/alignment capacity is
+full, 504 if a request waits too long, and 500 if alignment fails. Queue timeout defaults
 to 600 seconds; it does not limit active processing. Client/proxy timeouts must
-cover **queue wait plus processing**. Waiting requests keep their HTTP
+cover **upload plus queue wait plus processing**. Waiting requests keep their HTTP
 connections open. Queued/in-progress requests are not durable across restarts.
 
 This is an internal service with no built-in authentication. Keep it on a
@@ -146,6 +148,7 @@ For a Docker-image deployment platform, set these as runtime environment values:
 | `ALIGNMENT_BATCH_SIZE` | `1` | Windows per model call: 1, 2, or 4 |
 | `ALIGNMENT_MAX_QUEUED` | `4` | Waiting requests; 0 rejects immediately when busy |
 | `ALIGNMENT_QUEUE_TIMEOUT` | `600` | Maximum seconds waiting for a worker |
+| `ALIGNMENT_MAX_UPLOAD_MB` | `100` | Maximum entire multipart request size in MiB |
 | `ALIGNMENT_MODEL_PATH` | `/app/.cache/mms-300m-ct2-int8` | Optional replacement converted model directory |
 
 For two active requests using one thread each, set workers to `2` and CPU
@@ -158,7 +161,8 @@ setting; the Docker CPU limit constrains the whole container.
 
 Stop the service before benchmarking so its model and CPU activity do not
 distort measurements. Put `speech.mp3` and `transcript.txt` in `audio/`. The
-benchmark requires a writable mount because it saves SRTs and measurements.
+offline benchmark requires a writable mount because it saves SRTs and measurements.
+This mount is only for the benchmark; API uploads do not need it.
 Give UID 10001 write access to the sample directory, or run the benchmark
 container using the current host user's UID/GID as shown below.
 
@@ -212,13 +216,13 @@ environments. Commit the Python sources, `docker/`, `tests/`, `requirements.txt`
 
 For a platform that builds from Git, select this repository, use `Dockerfile`
 at its root with build context `.`, internal port `8000`, and health path
-`/health`. Configure a shared audio volume mounted at `/data/audio`. Supply the
+`/health`. No audio volume is required; keep the container's temporary directory writable. Supply the
 CPU/memory limits in the platform as well; a Dockerfile alone does not impose
 resource limits. No model download is needed when the built image starts.
 
 For a registry workflow, tag the built image with your registry/repository/tag
 and push it using your normal Docker credentials. Deploy that tag with the
-same port, volume, environment, and resource settings above. Image builds must
+same port, environment, and resource settings above. Image builds must
 target the deployment server's architecture.
 
 The underlying model and aligner declare CC-BY-NC 4.0; packaging them in this

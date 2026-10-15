@@ -1,7 +1,7 @@
 """HTTP manager for a persistent AlignmentService (start explicitly).
 
-POST /align: {audio_path, transcript, language} -> {words, srt}.
-Paths refer to audio on the same machine. No output files are written by HTTP.
+POST /align: multipart audio file, transcript, optional language -> {words, srt}.
+Uploaded audio is stored temporarily and removed after processing or failure.
 """
 
 import argparse
@@ -9,7 +9,10 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import os
 import signal
+import tempfile
+import threading
 
+from audio_upload import read_audio_upload, UploadTooLarge
 from alignment_service import AlignmentService, ServiceBusyError, QueueTimeoutError
 from alignment_config import (
     DEFAULT_MODEL_PATH, DEFAULT_WINDOW_SECONDS, DEFAULT_CPU_THREADS, DEFAULT_WORKERS,
@@ -17,7 +20,12 @@ from alignment_config import (
 )
 
 
-def create_server(service, port, host="127.0.0.1"):
+def create_server(service, port, host="127.0.0.1", max_upload_bytes=100 * 1024 * 1024):
+    if max_upload_bytes <= 0:
+        raise ValueError("Upload size limit must be positive")
+    # Includes uploads, queued requests and active processing, bounding temporary disk use.
+    uploads = threading.BoundedSemaphore(service.queue.workers + service.queue.max_queued)
+
     class Handler(BaseHTTPRequestHandler):
         def reply(self, status, result):
             data = json.dumps(result).encode()
@@ -25,24 +33,38 @@ def create_server(service, port, host="127.0.0.1"):
             self.send_header("Content-Type", "application/json")
             self.send_header("Content-Length", str(len(data)))
             self.end_headers()
-            self.wfile.write(data)
+            try:
+                self.wfile.write(data)
+            except (BrokenPipeError, ConnectionResetError):
+                self.close_connection = True
 
         def do_POST(self):
             if self.path != "/align":
                 self.reply(404, {"error": "Not found"})
                 return
-            # This internal API is intended for server callers, not browsers.
-            if self.headers.get("Origin"):
-                self.reply(403, {"error": "Browser requests are not supported"})
+            content_type = self.headers.get("Content-Type", "")
+            if content_type.split(";", 1)[0].strip().lower() != "multipart/form-data":
+                self.reply(415, {"error": "Send multipart/form-data with audio and transcript; language is optional"})
+                return
+            if self.headers.get("Transfer-Encoding") or not self.headers.get("Content-Length"):
+                self.reply(411, {"error": "Send a multipart upload with Content-Length"})
+                return
+            if not uploads.acquire(blocking=False):
+                self.reply(503, {"error": "Upload/alignment capacity is full; retry later"})
                 return
             try:
                 length = int(self.headers.get("Content-Length", "0"))
-                if not 0 < length <= 2 * 1024 * 1024:
-                    raise ValueError("Expected a JSON body smaller than 2 MiB")
-                body = json.loads(self.rfile.read(length))
-                if not isinstance(body, dict) or set(body) != {"audio_path", "transcript", "language"}:
-                    raise ValueError("Provide audio_path, transcript and language")
-                result = service.align(**body)
+                self.connection.settimeout(60)  # Inactivity limit while receiving the body.
+                with tempfile.TemporaryDirectory(prefix="alignment-upload-") as directory:
+                    audio, transcript, language = read_audio_upload(
+                        self.rfile, content_type, length, directory, max_upload_bytes,
+                    )
+                    self.connection.settimeout(None)
+                    result = service.align(audio, transcript, language)
+            except UploadTooLarge as error:
+                self.reply(413, {"error": str(error)})
+            except TimeoutError:
+                self.reply(408, {"error": "Audio upload timed out"})
             except QueueTimeoutError as error:
                 self.reply(504, {"error": str(error)})
             except ServiceBusyError as error:
@@ -53,10 +75,12 @@ def create_server(service, port, host="127.0.0.1"):
                 self.reply(500, {"error": "Alignment failed"})
             else:
                 self.reply(200, result)
+            finally:
+                uploads.release()
 
         def do_GET(self):
             if self.path == "/health":
-                self.reply(200, {"status": "ready", **service.queue.snapshot()})
+                self.reply(200, {"status": "ready", "audio_upload": True, **service.queue.snapshot()})
             else:
                 self.reply(404, {"error": "Not found"})
 
@@ -78,15 +102,18 @@ def main():
     parser.add_argument("--max-queued", type=int, default=os.environ.get("ALIGNMENT_MAX_QUEUED", str(DEFAULT_MAX_QUEUED)), help="Waiting requests beyond active workers (default: 4); 0 rejects busy requests")
     parser.add_argument("--queue-timeout", type=float, default=os.environ.get("ALIGNMENT_QUEUE_TIMEOUT", str(DEFAULT_QUEUE_TIMEOUT_SECONDS)), help="Maximum seconds waiting for a worker (default: 600); does not limit processing time")
     parser.add_argument("--buffered", action="store_true", help="Use the original full-audio decoder for comparison")
+    parser.add_argument("--max-upload-mb", type=int, default=os.environ.get("ALIGNMENT_MAX_UPLOAD_MB", "100"), help="Maximum multipart request size in MiB (default: 100)")
     args = parser.parse_args()
     if not 1 <= args.port <= 65535:
         parser.error("port must be between 1 and 65535")
     if args.window_seconds not in (5, 10, 30) or args.batch_size not in (1, 2, 4):
         parser.error("window must be 5/10/30 and batch size must be 1/2/4")
+    if args.max_upload_mb <= 0:
+        parser.error("max upload size must be positive")
     service = AlignmentService(args.model, args.workers, args.cpu_threads, args.window_seconds,
                                streaming=not args.buffered, batch_size=args.batch_size,
                                max_queued=args.max_queued, queue_timeout=args.queue_timeout)
-    with create_server(service, args.port, args.host) as server:
+    with create_server(service, args.port, args.host, args.max_upload_mb * 1024 * 1024) as server:
         print(f"Alignment service listening on http://{args.host}:{server.server_port}", flush=True)
         print(f"Workers={args.workers}, threads/worker={args.cpu_threads}, "
               f"window={args.window_seconds}s, batch={args.batch_size}, "
