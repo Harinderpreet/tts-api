@@ -1,0 +1,7 @@
+{
+  "provider": "Existing Speechma Microsoft Translator speech adapter",
+  "voice": "es-ES-ElviraNeural",
+  "characters": 3004,
+  "bytes": 1114272,
+  "generation_seconds": 6.04
+}

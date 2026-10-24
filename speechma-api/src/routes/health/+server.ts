@@ -9,6 +9,9 @@ export const GET: RequestHandler = async () => {
       status: runtime.providerReady ? 'healthy' : 'unhealthy',
       audio_files_count: (await runtime.storage.list()).length,
       active_jobs_size: runtime.queueSize,
+      processing_jobs_count: runtime.processingJobsCount,
+      worker_slots_in_use: runtime.workerSlotsInUse,
+      max_concurrent_requests: runtime.config.maxConcurrent,
       memory_jobs_count: runtime.jobs.size,
       message: runtime.providerReady ? 'System is operational' : 'Service is unavailable'
     });

@@ -1,0 +1,20 @@
+{
+  "language": "Italian",
+  "code": "it",
+  "aeneas_language": "ita",
+  "voice": "it-IT-ElsaNeural",
+  "status": "completed",
+  "characters": 3050,
+  "transcript_words": 451,
+  "srt_cues": 451,
+  "audio_duration_seconds": 178.968,
+  "generation_seconds": 10.08,
+  "alignment_seconds": 0.921,
+  "zero_duration_cues": 0,
+  "word_sequence_matches_transcript": true,
+  "audio_fully_decoded": true,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "timing_accuracy_manually_verified": false,
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/it/speech.mp3",
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/it/words.srt"
+}

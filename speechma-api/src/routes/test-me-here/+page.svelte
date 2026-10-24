@@ -119,6 +119,7 @@
       <span class="eyebrow">SPEECHMA / DEVELOPER TOOLS</span>
       <h1>API playground</h1>
       <p>Send a speech request, inspect a job, and listen to the result.</p>
+      <a class="button" href="/load-test">Parallel load testing & server resources</a>
     </header>
 
     <section class="panel connection" aria-labelledby="connection-title">

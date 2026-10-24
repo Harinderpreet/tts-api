@@ -1,0 +1,60 @@
+{
+  "characters": 2391,
+  "words": 439,
+  "voice": "en-US-AvaMultilingualNeural",
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/speech.mp3",
+  "audio_fully_decoded": true,
+  "audio_duration_seconds": 156.696,
+  "generation": {
+    "provider": "Existing Speechma Microsoft Translator speech adapter",
+    "voice": "en-US-AvaMultilingualNeural",
+    "characters": 2391,
+    "bytes": 940176,
+    "generation_seconds": 14.78
+  },
+  "alignment_results": {
+    "hin": {
+      "method": "Aeneas word-per-line alignment (John Meade gist adaptation)",
+      "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/speech.mp3",
+      "transcript": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/transcript.txt",
+      "language": "hin",
+      "audio_duration_seconds": 156.696,
+      "transcript_words": 439,
+      "srt_cues": 439,
+      "alignment_seconds": 1.358,
+      "audio_seconds_per_processing_second": 115.429,
+      "first_word_start_seconds": 0.0,
+      "last_word_end_seconds": 156.68,
+      "zero_duration_cues": 0,
+      "aeneas_adjust_zero_duration_boundaries": true,
+      "word_sequence_matches_transcript": true,
+      "timing_accuracy_manually_verified": false,
+      "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/hindi-alignment/words.srt"
+    },
+    "eng": {
+      "method": "Aeneas word-per-line alignment (John Meade gist adaptation)",
+      "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/speech.mp3",
+      "transcript": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/transcript.txt",
+      "language": "eng",
+      "audio_duration_seconds": 156.696,
+      "transcript_words": 439,
+      "srt_cues": 439,
+      "alignment_seconds": 1.253,
+      "audio_seconds_per_processing_second": 125.106,
+      "first_word_start_seconds": 0.0,
+      "last_word_end_seconds": 156.68,
+      "zero_duration_cues": 0,
+      "aeneas_adjust_zero_duration_boundaries": true,
+      "word_sequence_matches_transcript": true,
+      "timing_accuracy_manually_verified": false,
+      "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/mixed-english-hindi-2026-10-15/english-alignment/words.srt"
+    }
+  },
+  "comparison": {
+    "median_word_start_difference_seconds": 0.0,
+    "maximum_word_start_difference_seconds": 0.56,
+    "words_with_start_difference_over_500ms": 3,
+    "note": "Differences between two estimates do not measure accuracy against speech."
+  },
+  "timing_accuracy_manually_verified": false
+}

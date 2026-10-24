@@ -1,0 +1,21 @@
+{
+  "http_status": 200,
+  "total_seconds": 345.609099,
+  "timing_scope": "curl upload through response download; includes server processing",
+  "audio_seconds": 600,
+  "word_count": 1554,
+  "first_word": {
+    "start": 0.24,
+    "end": 0.32,
+    "text": "On",
+    "score": -0.004895235411822796
+  },
+  "last_word": {
+    "start": 598.2,
+    "end": 598.5,
+    "text": "again.",
+    "score": -0.3711969554424286
+  },
+  "srt_identical_to_local_reference": false,
+  "upload_bytes": 3610137
+}

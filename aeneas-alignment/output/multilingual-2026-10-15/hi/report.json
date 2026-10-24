@@ -1,0 +1,20 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "aeneas_language": "hin",
+  "voice": "hi-IN-SwaraNeural",
+  "status": "completed",
+  "characters": 3049,
+  "transcript_words": 624,
+  "srt_cues": 624,
+  "audio_duration_seconds": 261.72,
+  "generation_seconds": 3.7,
+  "alignment_seconds": 1.14,
+  "zero_duration_cues": 0,
+  "word_sequence_matches_transcript": true,
+  "audio_fully_decoded": true,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "timing_accuracy_manually_verified": false,
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/hi/speech.mp3",
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/hi/words.srt"
+}

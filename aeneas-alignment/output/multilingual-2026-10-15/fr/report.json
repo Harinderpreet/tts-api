@@ -1,0 +1,20 @@
+{
+  "language": "French",
+  "code": "fr",
+  "aeneas_language": "fra",
+  "voice": "fr-FR-DeniseNeural",
+  "status": "completed",
+  "characters": 2999,
+  "transcript_words": 449,
+  "srt_cues": 449,
+  "audio_duration_seconds": 170.784,
+  "generation_seconds": 5.15,
+  "alignment_seconds": 0.849,
+  "zero_duration_cues": 0,
+  "word_sequence_matches_transcript": true,
+  "audio_fully_decoded": true,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "timing_accuracy_manually_verified": false,
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/fr/speech.mp3",
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/fr/words.srt"
+}

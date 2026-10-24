@@ -1,0 +1,7 @@
+{
+  "provider": "Existing Speechma Microsoft Translator speech adapter",
+  "voice": "fr-FR-DeniseNeural",
+  "characters": 2999,
+  "bytes": 1024704,
+  "generation_seconds": 5.15
+}

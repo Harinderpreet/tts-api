@@ -1,0 +1,2257 @@
+[
+  {
+    "text": "Una",
+    "start_sec": 0.0,
+    "end_sec": 0.4
+  },
+  {
+    "text": "città",
+    "start_sec": 0.4,
+    "end_sec": 0.84
+  },
+  {
+    "text": "comincia",
+    "start_sec": 0.84,
+    "end_sec": 1.28
+  },
+  {
+    "text": "a",
+    "start_sec": 1.28,
+    "end_sec": 1.36
+  },
+  {
+    "text": "svegliarsi",
+    "start_sec": 1.36,
+    "end_sec": 2.04
+  },
+  {
+    "text": "molto",
+    "start_sec": 2.04,
+    "end_sec": 2.48
+  },
+  {
+    "text": "prima",
+    "start_sec": 2.48,
+    "end_sec": 2.76
+  },
+  {
+    "text": "che",
+    "start_sec": 2.76,
+    "end_sec": 2.84
+  },
+  {
+    "text": "le",
+    "start_sec": 2.84,
+    "end_sec": 2.92
+  },
+  {
+    "text": "sue",
+    "start_sec": 2.92,
+    "end_sec": 3.12
+  },
+  {
+    "text": "strade",
+    "start_sec": 3.12,
+    "end_sec": 3.56
+  },
+  {
+    "text": "si",
+    "start_sec": 3.56,
+    "end_sec": 3.8
+  },
+  {
+    "text": "riempiano",
+    "start_sec": 3.8,
+    "end_sec": 4.24
+  },
+  {
+    "text": "di",
+    "start_sec": 4.24,
+    "end_sec": 4.28
+  },
+  {
+    "text": "persone.",
+    "start_sec": 4.28,
+    "end_sec": 5.2
+  },
+  {
+    "text": "Una",
+    "start_sec": 5.2,
+    "end_sec": 5.44
+  },
+  {
+    "text": "fornaia",
+    "start_sec": 5.44,
+    "end_sec": 5.88
+  },
+  {
+    "text": "accende",
+    "start_sec": 5.88,
+    "end_sec": 6.24
+  },
+  {
+    "text": "il",
+    "start_sec": 6.24,
+    "end_sec": 6.36
+  },
+  {
+    "text": "forno,",
+    "start_sec": 6.36,
+    "end_sec": 7.12
+  },
+  {
+    "text": "un",
+    "start_sec": 7.12,
+    "end_sec": 7.28
+  },
+  {
+    "text": "infermiere",
+    "start_sec": 7.28,
+    "end_sec": 7.92
+  },
+  {
+    "text": "termina",
+    "start_sec": 7.92,
+    "end_sec": 8.36
+  },
+  {
+    "text": "il",
+    "start_sec": 8.36,
+    "end_sec": 8.52
+  },
+  {
+    "text": "turno",
+    "start_sec": 8.52,
+    "end_sec": 8.84
+  },
+  {
+    "text": "di",
+    "start_sec": 8.84,
+    "end_sec": 8.92
+  },
+  {
+    "text": "notte",
+    "start_sec": 8.92,
+    "end_sec": 9.4
+  },
+  {
+    "text": "e",
+    "start_sec": 9.4,
+    "end_sec": 9.52
+  },
+  {
+    "text": "una",
+    "start_sec": 9.52,
+    "end_sec": 9.72
+  },
+  {
+    "text": "studentessa",
+    "start_sec": 9.72,
+    "end_sec": 10.44
+  },
+  {
+    "text": "apre",
+    "start_sec": 10.44,
+    "end_sec": 10.64
+  },
+  {
+    "text": "un",
+    "start_sec": 10.64,
+    "end_sec": 10.8
+  },
+  {
+    "text": "quaderno",
+    "start_sec": 10.8,
+    "end_sec": 11.28
+  },
+  {
+    "text": "vicino",
+    "start_sec": 11.28,
+    "end_sec": 11.64
+  },
+  {
+    "text": "alla",
+    "start_sec": 11.64,
+    "end_sec": 11.8
+  },
+  {
+    "text": "finestra.",
+    "start_sec": 11.8,
+    "end_sec": 12.68
+  },
+  {
+    "text": "Ognuno",
+    "start_sec": 12.68,
+    "end_sec": 13.08
+  },
+  {
+    "text": "ha",
+    "start_sec": 13.08,
+    "end_sec": 13.28
+  },
+  {
+    "text": "un",
+    "start_sec": 13.28,
+    "end_sec": 13.36
+  },
+  {
+    "text": "programma",
+    "start_sec": 13.36,
+    "end_sec": 13.8
+  },
+  {
+    "text": "diverso,",
+    "start_sec": 13.8,
+    "end_sec": 14.68
+  },
+  {
+    "text": "eppure",
+    "start_sec": 14.68,
+    "end_sec": 15.2
+  },
+  {
+    "text": "tutti",
+    "start_sec": 15.2,
+    "end_sec": 15.52
+  },
+  {
+    "text": "dipendono",
+    "start_sec": 15.52,
+    "end_sec": 16.08
+  },
+  {
+    "text": "da",
+    "start_sec": 16.08,
+    "end_sec": 16.16
+  },
+  {
+    "text": "una",
+    "start_sec": 16.16,
+    "end_sec": 16.32
+  },
+  {
+    "text": "rete",
+    "start_sec": 16.32,
+    "end_sec": 16.56
+  },
+  {
+    "text": "silenziosa",
+    "start_sec": 16.56,
+    "end_sec": 17.28
+  },
+  {
+    "text": "di",
+    "start_sec": 17.28,
+    "end_sec": 17.36
+  },
+  {
+    "text": "fiducia",
+    "start_sec": 17.36,
+    "end_sec": 17.76
+  },
+  {
+    "text": "e",
+    "start_sec": 17.76,
+    "end_sec": 17.8
+  },
+  {
+    "text": "collaborazione.",
+    "start_sec": 17.8,
+    "end_sec": 19.12
+  },
+  {
+    "text": "Ci",
+    "start_sec": 19.12,
+    "end_sec": 19.28
+  },
+  {
+    "text": "aspettiamo",
+    "start_sec": 19.28,
+    "end_sec": 19.84
+  },
+  {
+    "text": "acqua",
+    "start_sec": 19.84,
+    "end_sec": 20.2
+  },
+  {
+    "text": "pulita,",
+    "start_sec": 20.2,
+    "end_sec": 20.88
+  },
+  {
+    "text": "strade",
+    "start_sec": 20.88,
+    "end_sec": 21.24
+  },
+  {
+    "text": "sicure,",
+    "start_sec": 21.24,
+    "end_sec": 22.0
+  },
+  {
+    "text": "cibo",
+    "start_sec": 22.0,
+    "end_sec": 22.28
+  },
+  {
+    "text": "fresco",
+    "start_sec": 22.28,
+    "end_sec": 22.76
+  },
+  {
+    "text": "ed",
+    "start_sec": 22.76,
+    "end_sec": 22.96
+  },
+  {
+    "text": "elettricità",
+    "start_sec": 22.96,
+    "end_sec": 23.52
+  },
+  {
+    "text": "ogni",
+    "start_sec": 23.52,
+    "end_sec": 23.72
+  },
+  {
+    "text": "volta",
+    "start_sec": 23.72,
+    "end_sec": 24.16
+  },
+  {
+    "text": "che",
+    "start_sec": 24.16,
+    "end_sec": 24.2
+  },
+  {
+    "text": "ne",
+    "start_sec": 24.2,
+    "end_sec": 24.32
+  },
+  {
+    "text": "abbiamo",
+    "start_sec": 24.32,
+    "end_sec": 24.68
+  },
+  {
+    "text": "bisogno.",
+    "start_sec": 24.68,
+    "end_sec": 25.12
+  },
+  {
+    "text": "Queste",
+    "start_sec": 25.12,
+    "end_sec": 25.84
+  },
+  {
+    "text": "cose",
+    "start_sec": 25.84,
+    "end_sec": 26.12
+  },
+  {
+    "text": "sembrano",
+    "start_sec": 26.12,
+    "end_sec": 26.6
+  },
+  {
+    "text": "normali",
+    "start_sec": 26.6,
+    "end_sec": 27.16
+  },
+  {
+    "text": "perché",
+    "start_sec": 27.16,
+    "end_sec": 27.4
+  },
+  {
+    "text": "spesso",
+    "start_sec": 27.4,
+    "end_sec": 27.8
+  },
+  {
+    "text": "funzionano",
+    "start_sec": 27.8,
+    "end_sec": 28.36
+  },
+  {
+    "text": "senza",
+    "start_sec": 28.36,
+    "end_sec": 28.72
+  },
+  {
+    "text": "problemi.",
+    "start_sec": 28.72,
+    "end_sec": 29.64
+  },
+  {
+    "text": "In",
+    "start_sec": 29.64,
+    "end_sec": 29.84
+  },
+  {
+    "text": "realtà",
+    "start_sec": 29.84,
+    "end_sec": 30.2
+  },
+  {
+    "text": "sono",
+    "start_sec": 30.2,
+    "end_sec": 30.52
+  },
+  {
+    "text": "il",
+    "start_sec": 30.52,
+    "end_sec": 30.6
+  },
+  {
+    "text": "risultato",
+    "start_sec": 30.6,
+    "end_sec": 31.2
+  },
+  {
+    "text": "di",
+    "start_sec": 31.2,
+    "end_sec": 31.36
+  },
+  {
+    "text": "generazioni",
+    "start_sec": 31.36,
+    "end_sec": 32.0
+  },
+  {
+    "text": "di",
+    "start_sec": 32.0,
+    "end_sec": 32.04
+  },
+  {
+    "text": "lavoro,",
+    "start_sec": 32.04,
+    "end_sec": 32.64
+  },
+  {
+    "text": "scoperte",
+    "start_sec": 32.64,
+    "end_sec": 33.36
+  },
+  {
+    "text": "e",
+    "start_sec": 33.36,
+    "end_sec": 33.48
+  },
+  {
+    "text": "tentativi",
+    "start_sec": 33.48,
+    "end_sec": 33.92
+  },
+  {
+    "text": "migliorati",
+    "start_sec": 33.92,
+    "end_sec": 34.4
+  },
+  {
+    "text": "nel",
+    "start_sec": 34.4,
+    "end_sec": 34.56
+  },
+  {
+    "text": "tempo.",
+    "start_sec": 34.56,
+    "end_sec": 35.36
+  },
+  {
+    "text": "La",
+    "start_sec": 35.36,
+    "end_sec": 35.56
+  },
+  {
+    "text": "curiosità",
+    "start_sec": 35.56,
+    "end_sec": 36.08
+  },
+  {
+    "text": "è",
+    "start_sec": 36.08,
+    "end_sec": 36.24
+  },
+  {
+    "text": "una",
+    "start_sec": 36.24,
+    "end_sec": 36.36
+  },
+  {
+    "text": "delle",
+    "start_sec": 36.36,
+    "end_sec": 36.68
+  },
+  {
+    "text": "forze",
+    "start_sec": 36.68,
+    "end_sec": 37.12
+  },
+  {
+    "text": "che",
+    "start_sec": 37.12,
+    "end_sec": 37.2
+  },
+  {
+    "text": "rendono",
+    "start_sec": 37.2,
+    "end_sec": 37.64
+  },
+  {
+    "text": "possibile",
+    "start_sec": 37.64,
+    "end_sec": 38.12
+  },
+  {
+    "text": "questo",
+    "start_sec": 38.12,
+    "end_sec": 38.44
+  },
+  {
+    "text": "progresso.",
+    "start_sec": 38.44,
+    "end_sec": 39.32
+  },
+  {
+    "text": "Un",
+    "start_sec": 39.32,
+    "end_sec": 39.52
+  },
+  {
+    "text": "bambino",
+    "start_sec": 39.52,
+    "end_sec": 40.08
+  },
+  {
+    "text": "chiede",
+    "start_sec": 40.08,
+    "end_sec": 40.32
+  },
+  {
+    "text": "perché",
+    "start_sec": 40.32,
+    "end_sec": 40.48
+  },
+  {
+    "text": "il",
+    "start_sec": 40.48,
+    "end_sec": 40.76
+  },
+  {
+    "text": "cielo",
+    "start_sec": 40.76,
+    "end_sec": 41.12
+  },
+  {
+    "text": "diventa",
+    "start_sec": 41.12,
+    "end_sec": 41.48
+  },
+  {
+    "text": "arancione",
+    "start_sec": 41.48,
+    "end_sec": 41.8
+  },
+  {
+    "text": "al",
+    "start_sec": 41.8,
+    "end_sec": 42.08
+  },
+  {
+    "text": "tramonto,",
+    "start_sec": 42.08,
+    "end_sec": 42.92
+  },
+  {
+    "text": "una",
+    "start_sec": 42.92,
+    "end_sec": 43.12
+  },
+  {
+    "text": "scienziata",
+    "start_sec": 43.12,
+    "end_sec": 43.68
+  },
+  {
+    "text": "studia",
+    "start_sec": 43.68,
+    "end_sec": 44.08
+  },
+  {
+    "text": "la",
+    "start_sec": 44.08,
+    "end_sec": 44.2
+  },
+  {
+    "text": "diffusione",
+    "start_sec": 44.2,
+    "end_sec": 44.84
+  },
+  {
+    "text": "della",
+    "start_sec": 44.84,
+    "end_sec": 44.96
+  },
+  {
+    "text": "luce",
+    "start_sec": 44.96,
+    "end_sec": 45.28
+  },
+  {
+    "text": "e",
+    "start_sec": 45.28,
+    "end_sec": 45.56
+  },
+  {
+    "text": "un",
+    "start_sec": 45.56,
+    "end_sec": 45.72
+  },
+  {
+    "text": "ingegnere",
+    "start_sec": 45.72,
+    "end_sec": 46.28
+  },
+  {
+    "text": "progetta",
+    "start_sec": 46.28,
+    "end_sec": 46.76
+  },
+  {
+    "text": "una",
+    "start_sec": 46.76,
+    "end_sec": 46.92
+  },
+  {
+    "text": "macchina",
+    "start_sec": 46.92,
+    "end_sec": 47.32
+  },
+  {
+    "text": "fotografica",
+    "start_sec": 47.32,
+    "end_sec": 48.0
+  },
+  {
+    "text": "capace",
+    "start_sec": 48.0,
+    "end_sec": 48.44
+  },
+  {
+    "text": "di",
+    "start_sec": 48.44,
+    "end_sec": 48.52
+  },
+  {
+    "text": "riprodurre",
+    "start_sec": 48.52,
+    "end_sec": 49.0
+  },
+  {
+    "text": "quei",
+    "start_sec": 49.0,
+    "end_sec": 49.12
+  },
+  {
+    "text": "colori.",
+    "start_sec": 49.12,
+    "end_sec": 50.04
+  },
+  {
+    "text": "Alcune",
+    "start_sec": 50.04,
+    "end_sec": 50.44
+  },
+  {
+    "text": "risposte",
+    "start_sec": 50.44,
+    "end_sec": 51.04
+  },
+  {
+    "text": "arrivano",
+    "start_sec": 51.04,
+    "end_sec": 51.48
+  },
+  {
+    "text": "rapidamente,",
+    "start_sec": 51.48,
+    "end_sec": 52.48
+  },
+  {
+    "text": "mentre",
+    "start_sec": 52.48,
+    "end_sec": 52.84
+  },
+  {
+    "text": "altre",
+    "start_sec": 52.84,
+    "end_sec": 53.2
+  },
+  {
+    "text": "richiedono",
+    "start_sec": 53.2,
+    "end_sec": 53.68
+  },
+  {
+    "text": "anni",
+    "start_sec": 53.68,
+    "end_sec": 53.96
+  },
+  {
+    "text": "di",
+    "start_sec": 53.96,
+    "end_sec": 54.04
+  },
+  {
+    "text": "osservazioni,",
+    "start_sec": 54.04,
+    "end_sec": 55.08
+  },
+  {
+    "text": "esperimenti",
+    "start_sec": 55.08,
+    "end_sec": 55.8
+  },
+  {
+    "text": "e",
+    "start_sec": 55.8,
+    "end_sec": 55.92
+  },
+  {
+    "text": "pazienza.",
+    "start_sec": 55.92,
+    "end_sec": 56.92
+  },
+  {
+    "text": "È",
+    "start_sec": 56.92,
+    "end_sec": 57.04
+  },
+  {
+    "text": "importante",
+    "start_sec": 57.04,
+    "end_sec": 57.8
+  },
+  {
+    "text": "distinguere",
+    "start_sec": 57.8,
+    "end_sec": 58.36
+  },
+  {
+    "text": "un'ipotesi",
+    "start_sec": 58.36,
+    "end_sec": 58.96
+  },
+  {
+    "text": "interessante",
+    "start_sec": 58.96,
+    "end_sec": 59.68
+  },
+  {
+    "text": "da",
+    "start_sec": 59.68,
+    "end_sec": 59.84
+  },
+  {
+    "text": "un",
+    "start_sec": 59.84,
+    "end_sec": 59.96
+  },
+  {
+    "text": "fatto",
+    "start_sec": 59.96,
+    "end_sec": 60.24
+  },
+  {
+    "text": "sostenuto",
+    "start_sec": 60.24,
+    "end_sec": 60.84
+  },
+  {
+    "text": "dalle",
+    "start_sec": 60.84,
+    "end_sec": 61.12
+  },
+  {
+    "text": "prove.",
+    "start_sec": 61.12,
+    "end_sec": 61.76
+  },
+  {
+    "text": "La",
+    "start_sec": 61.76,
+    "end_sec": 61.96
+  },
+  {
+    "text": "tecnologia",
+    "start_sec": 61.96,
+    "end_sec": 62.56
+  },
+  {
+    "text": "può",
+    "start_sec": 62.56,
+    "end_sec": 62.76
+  },
+  {
+    "text": "rendere",
+    "start_sec": 62.76,
+    "end_sec": 63.12
+  },
+  {
+    "text": "questa",
+    "start_sec": 63.12,
+    "end_sec": 63.4
+  },
+  {
+    "text": "ricerca",
+    "start_sec": 63.4,
+    "end_sec": 63.8
+  },
+  {
+    "text": "più",
+    "start_sec": 63.8,
+    "end_sec": 63.96
+  },
+  {
+    "text": "semplice.",
+    "start_sec": 63.96,
+    "end_sec": 64.96
+  },
+  {
+    "text": "Un",
+    "start_sec": 64.96,
+    "end_sec": 65.16
+  },
+  {
+    "text": "telefono",
+    "start_sec": 65.16,
+    "end_sec": 65.64
+  },
+  {
+    "text": "traduce",
+    "start_sec": 65.64,
+    "end_sec": 66.12
+  },
+  {
+    "text": "una",
+    "start_sec": 66.12,
+    "end_sec": 66.36
+  },
+  {
+    "text": "conversazione,",
+    "start_sec": 66.36,
+    "end_sec": 67.52
+  },
+  {
+    "text": "una",
+    "start_sec": 67.52,
+    "end_sec": 67.76
+  },
+  {
+    "text": "biblioteca",
+    "start_sec": 67.76,
+    "end_sec": 68.36
+  },
+  {
+    "text": "digitale",
+    "start_sec": 68.36,
+    "end_sec": 68.92
+  },
+  {
+    "text": "porta",
+    "start_sec": 68.92,
+    "end_sec": 69.2
+  },
+  {
+    "text": "libri",
+    "start_sec": 69.2,
+    "end_sec": 69.44
+  },
+  {
+    "text": "in",
+    "start_sec": 69.44,
+    "end_sec": 69.64
+  },
+  {
+    "text": "un",
+    "start_sec": 69.64,
+    "end_sec": 69.76
+  },
+  {
+    "text": "villaggio",
+    "start_sec": 69.76,
+    "end_sec": 70.24
+  },
+  {
+    "text": "lontano",
+    "start_sec": 70.24,
+    "end_sec": 70.84
+  },
+  {
+    "text": "e",
+    "start_sec": 70.84,
+    "end_sec": 70.96
+  },
+  {
+    "text": "un",
+    "start_sec": 70.96,
+    "end_sec": 71.12
+  },
+  {
+    "text": "computer",
+    "start_sec": 71.12,
+    "end_sec": 71.6
+  },
+  {
+    "text": "aiuta",
+    "start_sec": 71.6,
+    "end_sec": 72.0
+  },
+  {
+    "text": "a",
+    "start_sec": 72.0,
+    "end_sec": 72.12
+  },
+  {
+    "text": "prevedere",
+    "start_sec": 72.12,
+    "end_sec": 72.36
+  },
+  {
+    "text": "i",
+    "start_sec": 72.36,
+    "end_sec": 72.64
+  },
+  {
+    "text": "cambiamenti",
+    "start_sec": 72.64,
+    "end_sec": 73.12
+  },
+  {
+    "text": "del",
+    "start_sec": 73.12,
+    "end_sec": 73.36
+  },
+  {
+    "text": "tempo.",
+    "start_sec": 73.36,
+    "end_sec": 74.08
+  },
+  {
+    "text": "Tuttavia,",
+    "start_sec": 74.08,
+    "end_sec": 74.8
+  },
+  {
+    "text": "nessuno",
+    "start_sec": 74.8,
+    "end_sec": 75.28
+  },
+  {
+    "text": "strumento",
+    "start_sec": 75.28,
+    "end_sec": 75.92
+  },
+  {
+    "text": "può",
+    "start_sec": 75.92,
+    "end_sec": 76.04
+  },
+  {
+    "text": "decidere",
+    "start_sec": 76.04,
+    "end_sec": 76.44
+  },
+  {
+    "text": "da",
+    "start_sec": 76.44,
+    "end_sec": 76.6
+  },
+  {
+    "text": "solo",
+    "start_sec": 76.6,
+    "end_sec": 76.92
+  },
+  {
+    "text": "quali",
+    "start_sec": 76.92,
+    "end_sec": 77.24
+  },
+  {
+    "text": "problemi",
+    "start_sec": 77.24,
+    "end_sec": 77.64
+  },
+  {
+    "text": "meritino",
+    "start_sec": 77.64,
+    "end_sec": 78.16
+  },
+  {
+    "text": "maggiore",
+    "start_sec": 78.16,
+    "end_sec": 78.52
+  },
+  {
+    "text": "attenzione.",
+    "start_sec": 78.52,
+    "end_sec": 79.16
+  },
+  {
+    "text": "Questa",
+    "start_sec": 79.16,
+    "end_sec": 79.88
+  },
+  {
+    "text": "responsabilità",
+    "start_sec": 79.88,
+    "end_sec": 80.8
+  },
+  {
+    "text": "appartiene",
+    "start_sec": 80.8,
+    "end_sec": 81.36
+  },
+  {
+    "text": "alle",
+    "start_sec": 81.36,
+    "end_sec": 81.6
+  },
+  {
+    "text": "persone,",
+    "start_sec": 81.6,
+    "end_sec": 82.32
+  },
+  {
+    "text": "soprattutto",
+    "start_sec": 82.32,
+    "end_sec": 82.96
+  },
+  {
+    "text": "a",
+    "start_sec": 82.96,
+    "end_sec": 83.16
+  },
+  {
+    "text": "quelle",
+    "start_sec": 83.16,
+    "end_sec": 83.4
+  },
+  {
+    "text": "che",
+    "start_sec": 83.4,
+    "end_sec": 83.48
+  },
+  {
+    "text": "vivono",
+    "start_sec": 83.48,
+    "end_sec": 83.84
+  },
+  {
+    "text": "direttamente",
+    "start_sec": 83.84,
+    "end_sec": 84.44
+  },
+  {
+    "text": "le",
+    "start_sec": 84.44,
+    "end_sec": 84.52
+  },
+  {
+    "text": "conseguenze",
+    "start_sec": 84.52,
+    "end_sec": 85.24
+  },
+  {
+    "text": "delle",
+    "start_sec": 85.24,
+    "end_sec": 85.48
+  },
+  {
+    "text": "decisioni.",
+    "start_sec": 85.48,
+    "end_sec": 86.44
+  },
+  {
+    "text": "Immaginiamo",
+    "start_sec": 86.44,
+    "end_sec": 87.12
+  },
+  {
+    "text": "un",
+    "start_sec": 87.12,
+    "end_sec": 87.16
+  },
+  {
+    "text": "quartiere",
+    "start_sec": 87.16,
+    "end_sec": 87.76
+  },
+  {
+    "text": "che",
+    "start_sec": 87.76,
+    "end_sec": 87.84
+  },
+  {
+    "text": "voglia",
+    "start_sec": 87.84,
+    "end_sec": 88.12
+  },
+  {
+    "text": "rinnovare",
+    "start_sec": 88.12,
+    "end_sec": 88.48
+  },
+  {
+    "text": "un",
+    "start_sec": 88.48,
+    "end_sec": 88.68
+  },
+  {
+    "text": "parco",
+    "start_sec": 88.68,
+    "end_sec": 88.96
+  },
+  {
+    "text": "trascurato.",
+    "start_sec": 88.96,
+    "end_sec": 90.0
+  },
+  {
+    "text": "Le",
+    "start_sec": 90.0,
+    "end_sec": 90.16
+  },
+  {
+    "text": "famiglie",
+    "start_sec": 90.16,
+    "end_sec": 90.72
+  },
+  {
+    "text": "chiedono",
+    "start_sec": 90.72,
+    "end_sec": 91.2
+  },
+  {
+    "text": "un'area",
+    "start_sec": 91.2,
+    "end_sec": 91.56
+  },
+  {
+    "text": "giochi,",
+    "start_sec": 91.56,
+    "end_sec": 91.92
+  },
+  {
+    "text": "gli",
+    "start_sec": 91.92,
+    "end_sec": 92.36
+  },
+  {
+    "text": "anziani",
+    "start_sec": 92.36,
+    "end_sec": 92.96
+  },
+  {
+    "text": "desiderano",
+    "start_sec": 92.96,
+    "end_sec": 93.6
+  },
+  {
+    "text": "panchine",
+    "start_sec": 93.6,
+    "end_sec": 94.0
+  },
+  {
+    "text": "all'ombra",
+    "start_sec": 94.0,
+    "end_sec": 94.6
+  },
+  {
+    "text": "e",
+    "start_sec": 94.6,
+    "end_sec": 94.76
+  },
+  {
+    "text": "chi",
+    "start_sec": 94.76,
+    "end_sec": 94.88
+  },
+  {
+    "text": "va",
+    "start_sec": 94.88,
+    "end_sec": 95.0
+  },
+  {
+    "text": "in",
+    "start_sec": 95.0,
+    "end_sec": 95.16
+  },
+  {
+    "text": "bicicletta",
+    "start_sec": 95.16,
+    "end_sec": 95.76
+  },
+  {
+    "text": "vorrebbe",
+    "start_sec": 95.76,
+    "end_sec": 96.28
+  },
+  {
+    "text": "percorsi",
+    "start_sec": 96.28,
+    "end_sec": 96.8
+  },
+  {
+    "text": "più",
+    "start_sec": 96.8,
+    "end_sec": 96.88
+  },
+  {
+    "text": "sicuri.",
+    "start_sec": 96.88,
+    "end_sec": 97.72
+  },
+  {
+    "text": "Alcuni",
+    "start_sec": 97.72,
+    "end_sec": 98.24
+  },
+  {
+    "text": "residenti",
+    "start_sec": 98.24,
+    "end_sec": 98.96
+  },
+  {
+    "text": "propongono",
+    "start_sec": 98.96,
+    "end_sec": 99.48
+  },
+  {
+    "text": "nuove",
+    "start_sec": 99.48,
+    "end_sec": 99.76
+  },
+  {
+    "text": "luci,",
+    "start_sec": 99.76,
+    "end_sec": 100.28
+  },
+  {
+    "text": "altri",
+    "start_sec": 100.28,
+    "end_sec": 100.68
+  },
+  {
+    "text": "sognano",
+    "start_sec": 100.68,
+    "end_sec": 101.12
+  },
+  {
+    "text": "un",
+    "start_sec": 101.12,
+    "end_sec": 101.24
+  },
+  {
+    "text": "giardino",
+    "start_sec": 101.24,
+    "end_sec": 101.76
+  },
+  {
+    "text": "con",
+    "start_sec": 101.76,
+    "end_sec": 101.96
+  },
+  {
+    "text": "piante",
+    "start_sec": 101.96,
+    "end_sec": 102.32
+  },
+  {
+    "text": "locali",
+    "start_sec": 102.32,
+    "end_sec": 102.68
+  },
+  {
+    "text": "e",
+    "start_sec": 102.68,
+    "end_sec": 102.96
+  },
+  {
+    "text": "un",
+    "start_sec": 102.96,
+    "end_sec": 103.12
+  },
+  {
+    "text": "murale",
+    "start_sec": 103.12,
+    "end_sec": 103.6
+  },
+  {
+    "text": "dedicato",
+    "start_sec": 103.6,
+    "end_sec": 104.0
+  },
+  {
+    "text": "alla",
+    "start_sec": 104.0,
+    "end_sec": 104.16
+  },
+  {
+    "text": "storia",
+    "start_sec": 104.16,
+    "end_sec": 104.48
+  },
+  {
+    "text": "del",
+    "start_sec": 104.48,
+    "end_sec": 104.64
+  },
+  {
+    "text": "quartiere.",
+    "start_sec": 104.64,
+    "end_sec": 105.64
+  },
+  {
+    "text": "Un",
+    "start_sec": 105.64,
+    "end_sec": 105.84
+  },
+  {
+    "text": "buon",
+    "start_sec": 105.84,
+    "end_sec": 106.12
+  },
+  {
+    "text": "progetto",
+    "start_sec": 106.12,
+    "end_sec": 106.6
+  },
+  {
+    "text": "non",
+    "start_sec": 106.6,
+    "end_sec": 106.8
+  },
+  {
+    "text": "deve",
+    "start_sec": 106.8,
+    "end_sec": 107.04
+  },
+  {
+    "text": "trasformare",
+    "start_sec": 107.04,
+    "end_sec": 107.68
+  },
+  {
+    "text": "questi",
+    "start_sec": 107.68,
+    "end_sec": 108.04
+  },
+  {
+    "text": "desideri",
+    "start_sec": 108.04,
+    "end_sec": 108.4
+  },
+  {
+    "text": "in",
+    "start_sec": 108.4,
+    "end_sec": 108.52
+  },
+  {
+    "text": "una",
+    "start_sec": 108.52,
+    "end_sec": 108.8
+  },
+  {
+    "text": "gara.",
+    "start_sec": 108.8,
+    "end_sec": 109.48
+  },
+  {
+    "text": "Può",
+    "start_sec": 109.48,
+    "end_sec": 109.68
+  },
+  {
+    "text": "unirli,",
+    "start_sec": 109.68,
+    "end_sec": 110.44
+  },
+  {
+    "text": "provare",
+    "start_sec": 110.44,
+    "end_sec": 110.76
+  },
+  {
+    "text": "soluzioni",
+    "start_sec": 110.76,
+    "end_sec": 111.4
+  },
+  {
+    "text": "diverse",
+    "start_sec": 111.4,
+    "end_sec": 111.88
+  },
+  {
+    "text": "e",
+    "start_sec": 111.88,
+    "end_sec": 111.92
+  },
+  {
+    "text": "modificarle",
+    "start_sec": 111.92,
+    "end_sec": 112.64
+  },
+  {
+    "text": "quando",
+    "start_sec": 112.64,
+    "end_sec": 113.04
+  },
+  {
+    "text": "emergono",
+    "start_sec": 113.04,
+    "end_sec": 113.4
+  },
+  {
+    "text": "nuove",
+    "start_sec": 113.4,
+    "end_sec": 113.76
+  },
+  {
+    "text": "informazioni.",
+    "start_sec": 113.76,
+    "end_sec": 114.96
+  },
+  {
+    "text": "Forse",
+    "start_sec": 114.96,
+    "end_sec": 115.52
+  },
+  {
+    "text": "alcune",
+    "start_sec": 115.52,
+    "end_sec": 115.8
+  },
+  {
+    "text": "piante",
+    "start_sec": 115.8,
+    "end_sec": 116.12
+  },
+  {
+    "text": "non",
+    "start_sec": 116.12,
+    "end_sec": 116.24
+  },
+  {
+    "text": "resistono",
+    "start_sec": 116.24,
+    "end_sec": 116.76
+  },
+  {
+    "text": "al",
+    "start_sec": 116.76,
+    "end_sec": 116.88
+  },
+  {
+    "text": "caldo",
+    "start_sec": 116.88,
+    "end_sec": 117.32
+  },
+  {
+    "text": "oppure",
+    "start_sec": 117.32,
+    "end_sec": 117.6
+  },
+  {
+    "text": "un",
+    "start_sec": 117.6,
+    "end_sec": 117.8
+  },
+  {
+    "text": "sentiero",
+    "start_sec": 117.8,
+    "end_sec": 118.24
+  },
+  {
+    "text": "risulta",
+    "start_sec": 118.24,
+    "end_sec": 118.68
+  },
+  {
+    "text": "troppo",
+    "start_sec": 118.68,
+    "end_sec": 119.0
+  },
+  {
+    "text": "stretto",
+    "start_sec": 119.0,
+    "end_sec": 119.48
+  },
+  {
+    "text": "per",
+    "start_sec": 119.48,
+    "end_sec": 119.56
+  },
+  {
+    "text": "una",
+    "start_sec": 119.56,
+    "end_sec": 119.72
+  },
+  {
+    "text": "sedia",
+    "start_sec": 119.72,
+    "end_sec": 119.96
+  },
+  {
+    "text": "a",
+    "start_sec": 119.96,
+    "end_sec": 120.08
+  },
+  {
+    "text": "rotelle.",
+    "start_sec": 120.08,
+    "end_sec": 120.92
+  },
+  {
+    "text": "Riconoscere",
+    "start_sec": 120.92,
+    "end_sec": 121.56
+  },
+  {
+    "text": "questi",
+    "start_sec": 121.56,
+    "end_sec": 121.88
+  },
+  {
+    "text": "errori",
+    "start_sec": 121.88,
+    "end_sec": 122.36
+  },
+  {
+    "text": "permette",
+    "start_sec": 122.36,
+    "end_sec": 122.8
+  },
+  {
+    "text": "di",
+    "start_sec": 122.8,
+    "end_sec": 122.88
+  },
+  {
+    "text": "correggerli",
+    "start_sec": 122.88,
+    "end_sec": 123.44
+  },
+  {
+    "text": "invece",
+    "start_sec": 123.44,
+    "end_sec": 123.96
+  },
+  {
+    "text": "di",
+    "start_sec": 123.96,
+    "end_sec": 124.12
+  },
+  {
+    "text": "difendere",
+    "start_sec": 124.12,
+    "end_sec": 124.52
+  },
+  {
+    "text": "un",
+    "start_sec": 124.52,
+    "end_sec": 124.68
+  },
+  {
+    "text": "piano",
+    "start_sec": 124.68,
+    "end_sec": 124.92
+  },
+  {
+    "text": "imperfetto.",
+    "start_sec": 124.92,
+    "end_sec": 126.0
+  },
+  {
+    "text": "Le",
+    "start_sec": 126.0,
+    "end_sec": 126.2
+  },
+  {
+    "text": "persone",
+    "start_sec": 126.2,
+    "end_sec": 126.72
+  },
+  {
+    "text": "possono",
+    "start_sec": 126.72,
+    "end_sec": 127.28
+  },
+  {
+    "text": "discutere",
+    "start_sec": 127.28,
+    "end_sec": 127.68
+  },
+  {
+    "text": "dei",
+    "start_sec": 127.68,
+    "end_sec": 127.88
+  },
+  {
+    "text": "costi,",
+    "start_sec": 127.88,
+    "end_sec": 128.6
+  },
+  {
+    "text": "delle",
+    "start_sec": 128.6,
+    "end_sec": 128.92
+  },
+  {
+    "text": "priorità",
+    "start_sec": 128.92,
+    "end_sec": 129.4
+  },
+  {
+    "text": "e",
+    "start_sec": 129.4,
+    "end_sec": 129.401
+  },
+  {
+    "text": "dei",
+    "start_sec": 129.401,
+    "end_sec": 129.64
+  },
+  {
+    "text": "rischi",
+    "start_sec": 129.64,
+    "end_sec": 130.12
+  },
+  {
+    "text": "senza",
+    "start_sec": 130.12,
+    "end_sec": 130.52
+  },
+  {
+    "text": "smettere",
+    "start_sec": 130.52,
+    "end_sec": 131.04
+  },
+  {
+    "text": "di",
+    "start_sec": 131.04,
+    "end_sec": 131.08
+  },
+  {
+    "text": "rispettarsi.",
+    "start_sec": 131.08,
+    "end_sec": 131.92
+  },
+  {
+    "text": "Quando",
+    "start_sec": 131.92,
+    "end_sec": 132.68
+  },
+  {
+    "text": "tutti",
+    "start_sec": 132.68,
+    "end_sec": 133.0
+  },
+  {
+    "text": "spiegano",
+    "start_sec": 133.0,
+    "end_sec": 133.52
+  },
+  {
+    "text": "le",
+    "start_sec": 133.52,
+    "end_sec": 133.68
+  },
+  {
+    "text": "proprie",
+    "start_sec": 133.68,
+    "end_sec": 134.0
+  },
+  {
+    "text": "ragioni",
+    "start_sec": 134.0,
+    "end_sec": 134.56
+  },
+  {
+    "text": "e",
+    "start_sec": 134.56,
+    "end_sec": 134.68
+  },
+  {
+    "text": "ascoltano",
+    "start_sec": 134.68,
+    "end_sec": 135.28
+  },
+  {
+    "text": "le",
+    "start_sec": 135.28,
+    "end_sec": 135.4
+  },
+  {
+    "text": "prove",
+    "start_sec": 135.4,
+    "end_sec": 135.64
+  },
+  {
+    "text": "disponibili,",
+    "start_sec": 135.64,
+    "end_sec": 136.24
+  },
+  {
+    "text": "il",
+    "start_sec": 136.24,
+    "end_sec": 136.68
+  },
+  {
+    "text": "confronto",
+    "start_sec": 136.68,
+    "end_sec": 137.36
+  },
+  {
+    "text": "diventa",
+    "start_sec": 137.36,
+    "end_sec": 137.76
+  },
+  {
+    "text": "un'occasione",
+    "start_sec": 137.76,
+    "end_sec": 138.52
+  },
+  {
+    "text": "di",
+    "start_sec": 138.52,
+    "end_sec": 138.6
+  },
+  {
+    "text": "crescita.",
+    "start_sec": 138.6,
+    "end_sec": 139.48
+  },
+  {
+    "text": "Cambiare",
+    "start_sec": 139.48,
+    "end_sec": 139.88
+  },
+  {
+    "text": "opinione",
+    "start_sec": 139.88,
+    "end_sec": 140.48
+  },
+  {
+    "text": "davanti",
+    "start_sec": 140.48,
+    "end_sec": 140.92
+  },
+  {
+    "text": "a",
+    "start_sec": 140.92,
+    "end_sec": 141.08
+  },
+  {
+    "text": "nuovi",
+    "start_sec": 141.08,
+    "end_sec": 141.2
+  },
+  {
+    "text": "fatti",
+    "start_sec": 141.2,
+    "end_sec": 141.6
+  },
+  {
+    "text": "non",
+    "start_sec": 141.6,
+    "end_sec": 141.76
+  },
+  {
+    "text": "è",
+    "start_sec": 141.76,
+    "end_sec": 141.8
+  },
+  {
+    "text": "una",
+    "start_sec": 141.8,
+    "end_sec": 142.04
+  },
+  {
+    "text": "sconfitta,",
+    "start_sec": 142.04,
+    "end_sec": 142.92
+  },
+  {
+    "text": "ma",
+    "start_sec": 142.92,
+    "end_sec": 143.16
+  },
+  {
+    "text": "un",
+    "start_sec": 143.16,
+    "end_sec": 143.24
+  },
+  {
+    "text": "segno",
+    "start_sec": 143.24,
+    "end_sec": 143.68
+  },
+  {
+    "text": "di",
+    "start_sec": 143.68,
+    "end_sec": 143.76
+  },
+  {
+    "text": "maturità.",
+    "start_sec": 143.76,
+    "end_sec": 144.28
+  },
+  {
+    "text": "Quando",
+    "start_sec": 144.28,
+    "end_sec": 145.0
+  },
+  {
+    "text": "arriva",
+    "start_sec": 145.0,
+    "end_sec": 145.28
+  },
+  {
+    "text": "la",
+    "start_sec": 145.28,
+    "end_sec": 145.48
+  },
+  {
+    "text": "sera,",
+    "start_sec": 145.48,
+    "end_sec": 146.04
+  },
+  {
+    "text": "la",
+    "start_sec": 146.04,
+    "end_sec": 146.24
+  },
+  {
+    "text": "città",
+    "start_sec": 146.24,
+    "end_sec": 146.6
+  },
+  {
+    "text": "assume",
+    "start_sec": 146.6,
+    "end_sec": 147.04
+  },
+  {
+    "text": "un",
+    "start_sec": 147.04,
+    "end_sec": 147.16
+  },
+  {
+    "text": "ritmo",
+    "start_sec": 147.16,
+    "end_sec": 147.56
+  },
+  {
+    "text": "diverso.",
+    "start_sec": 147.56,
+    "end_sec": 148.48
+  },
+  {
+    "text": "Le",
+    "start_sec": 148.48,
+    "end_sec": 148.64
+  },
+  {
+    "text": "famiglie",
+    "start_sec": 148.64,
+    "end_sec": 149.16
+  },
+  {
+    "text": "preparano",
+    "start_sec": 149.16,
+    "end_sec": 149.52
+  },
+  {
+    "text": "la",
+    "start_sec": 149.52,
+    "end_sec": 149.68
+  },
+  {
+    "text": "cena,",
+    "start_sec": 149.68,
+    "end_sec": 150.08
+  },
+  {
+    "text": "gli",
+    "start_sec": 150.08,
+    "end_sec": 150.48
+  },
+  {
+    "text": "amici",
+    "start_sec": 150.48,
+    "end_sec": 150.8
+  },
+  {
+    "text": "raccontano",
+    "start_sec": 150.8,
+    "end_sec": 151.44
+  },
+  {
+    "text": "la",
+    "start_sec": 151.44,
+    "end_sec": 151.56
+  },
+  {
+    "text": "giornata",
+    "start_sec": 151.56,
+    "end_sec": 152.08
+  },
+  {
+    "text": "e",
+    "start_sec": 152.08,
+    "end_sec": 152.12
+  },
+  {
+    "text": "qualcuno",
+    "start_sec": 152.12,
+    "end_sec": 152.68
+  },
+  {
+    "text": "comincia",
+    "start_sec": 152.68,
+    "end_sec": 153.08
+  },
+  {
+    "text": "un",
+    "start_sec": 153.08,
+    "end_sec": 153.24
+  },
+  {
+    "text": "progetto",
+    "start_sec": 153.24,
+    "end_sec": 153.68
+  },
+  {
+    "text": "sul",
+    "start_sec": 153.68,
+    "end_sec": 153.96
+  },
+  {
+    "text": "tavolo",
+    "start_sec": 153.96,
+    "end_sec": 154.28
+  },
+  {
+    "text": "della",
+    "start_sec": 154.28,
+    "end_sec": 154.56
+  },
+  {
+    "text": "cucina.",
+    "start_sec": 154.56,
+    "end_sec": 155.32
+  },
+  {
+    "text": "Potrebbe",
+    "start_sec": 155.32,
+    "end_sec": 155.64
+  },
+  {
+    "text": "essere",
+    "start_sec": 155.64,
+    "end_sec": 156.0
+  },
+  {
+    "text": "una",
+    "start_sec": 156.0,
+    "end_sec": 156.16
+  },
+  {
+    "text": "canzone,",
+    "start_sec": 156.16,
+    "end_sec": 157.0
+  },
+  {
+    "text": "una",
+    "start_sec": 157.0,
+    "end_sec": 157.28
+  },
+  {
+    "text": "piccola",
+    "start_sec": 157.28,
+    "end_sec": 157.6
+  },
+  {
+    "text": "impresa,",
+    "start_sec": 157.6,
+    "end_sec": 158.08
+  },
+  {
+    "text": "un",
+    "start_sec": 158.08,
+    "end_sec": 158.48
+  },
+  {
+    "text": "esperimento",
+    "start_sec": 158.48,
+    "end_sec": 159.24
+  },
+  {
+    "text": "o",
+    "start_sec": 159.24,
+    "end_sec": 159.32
+  },
+  {
+    "text": "un'attività",
+    "start_sec": 159.32,
+    "end_sec": 159.96
+  },
+  {
+    "text": "per",
+    "start_sec": 159.96,
+    "end_sec": 160.12
+  },
+  {
+    "text": "aiutare",
+    "start_sec": 160.12,
+    "end_sec": 160.48
+  },
+  {
+    "text": "i",
+    "start_sec": 160.48,
+    "end_sec": 160.56
+  },
+  {
+    "text": "vicini.",
+    "start_sec": 160.56,
+    "end_sec": 161.36
+  },
+  {
+    "text": "Forse",
+    "start_sec": 161.36,
+    "end_sec": 161.76
+  },
+  {
+    "text": "questi",
+    "start_sec": 161.76,
+    "end_sec": 162.16
+  },
+  {
+    "text": "gesti",
+    "start_sec": 162.16,
+    "end_sec": 162.56
+  },
+  {
+    "text": "non",
+    "start_sec": 162.56,
+    "end_sec": 162.72
+  },
+  {
+    "text": "finiranno",
+    "start_sec": 162.72,
+    "end_sec": 163.24
+  },
+  {
+    "text": "mai",
+    "start_sec": 163.24,
+    "end_sec": 163.44
+  },
+  {
+    "text": "sui",
+    "start_sec": 163.44,
+    "end_sec": 163.72
+  },
+  {
+    "text": "giornali,",
+    "start_sec": 163.72,
+    "end_sec": 164.44
+  },
+  {
+    "text": "ma",
+    "start_sec": 164.44,
+    "end_sec": 164.64
+  },
+  {
+    "text": "possono",
+    "start_sec": 164.64,
+    "end_sec": 165.0
+  },
+  {
+    "text": "migliorare",
+    "start_sec": 165.0,
+    "end_sec": 165.56
+  },
+  {
+    "text": "concretamente",
+    "start_sec": 165.56,
+    "end_sec": 166.28
+  },
+  {
+    "text": "la",
+    "start_sec": 166.28,
+    "end_sec": 166.36
+  },
+  {
+    "text": "vita",
+    "start_sec": 166.36,
+    "end_sec": 166.64
+  },
+  {
+    "text": "di",
+    "start_sec": 166.64,
+    "end_sec": 166.641
+  },
+  {
+    "text": "qualcuno.",
+    "start_sec": 166.641,
+    "end_sec": 167.6
+  },
+  {
+    "text": "Il",
+    "start_sec": 167.6,
+    "end_sec": 167.72
+  },
+  {
+    "text": "futuro",
+    "start_sec": 167.72,
+    "end_sec": 168.24
+  },
+  {
+    "text": "non",
+    "start_sec": 168.24,
+    "end_sec": 168.4
+  },
+  {
+    "text": "nasce",
+    "start_sec": 168.4,
+    "end_sec": 168.8
+  },
+  {
+    "text": "soltanto",
+    "start_sec": 168.8,
+    "end_sec": 169.44
+  },
+  {
+    "text": "nei",
+    "start_sec": 169.44,
+    "end_sec": 169.6
+  },
+  {
+    "text": "laboratori",
+    "start_sec": 169.6,
+    "end_sec": 170.16
+  },
+  {
+    "text": "famosi",
+    "start_sec": 170.16,
+    "end_sec": 170.68
+  },
+  {
+    "text": "o",
+    "start_sec": 170.68,
+    "end_sec": 170.76
+  },
+  {
+    "text": "nei",
+    "start_sec": 170.76,
+    "end_sec": 171.04
+  },
+  {
+    "text": "grandi",
+    "start_sec": 171.04,
+    "end_sec": 171.28
+  },
+  {
+    "text": "palazzi.",
+    "start_sec": 171.28,
+    "end_sec": 172.24
+  },
+  {
+    "text": "Prende",
+    "start_sec": 172.24,
+    "end_sec": 172.6
+  },
+  {
+    "text": "forma",
+    "start_sec": 172.6,
+    "end_sec": 173.0
+  },
+  {
+    "text": "anche",
+    "start_sec": 173.0,
+    "end_sec": 173.24
+  },
+  {
+    "text": "quando",
+    "start_sec": 173.24,
+    "end_sec": 173.68
+  },
+  {
+    "text": "persone",
+    "start_sec": 173.68,
+    "end_sec": 174.0
+  },
+  {
+    "text": "comuni",
+    "start_sec": 174.0,
+    "end_sec": 174.44
+  },
+  {
+    "text": "fanno",
+    "start_sec": 174.44,
+    "end_sec": 174.72
+  },
+  {
+    "text": "domande,",
+    "start_sec": 174.72,
+    "end_sec": 175.08
+  },
+  {
+    "text": "collaborano",
+    "start_sec": 175.08,
+    "end_sec": 176.04
+  },
+  {
+    "text": "con",
+    "start_sec": 176.04,
+    "end_sec": 176.24
+  },
+  {
+    "text": "pazienza",
+    "start_sec": 176.24,
+    "end_sec": 177.04
+  },
+  {
+    "text": "e",
+    "start_sec": 177.04,
+    "end_sec": 177.2
+  },
+  {
+    "text": "trovano",
+    "start_sec": 177.2,
+    "end_sec": 177.56
+  },
+  {
+    "text": "il",
+    "start_sec": 177.56,
+    "end_sec": 177.6
+  },
+  {
+    "text": "coraggio",
+    "start_sec": 177.6,
+    "end_sec": 178.08
+  },
+  {
+    "text": "di",
+    "start_sec": 178.08,
+    "end_sec": 178.2
+  },
+  {
+    "text": "riprovare.",
+    "start_sec": 178.2,
+    "end_sec": 178.96
+  }
+]

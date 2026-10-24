@@ -1,0 +1,5 @@
+# Install NumPy before Aeneas; its build imports NumPy directly.
+numpy==1.26.4
+aeneas==1.7.3.0
+TextGrid==1.6.1
+tgt==1.5

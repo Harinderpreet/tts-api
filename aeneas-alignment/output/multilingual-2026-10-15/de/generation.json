@@ -1,0 +1,7 @@
+{
+  "provider": "Existing Speechma Microsoft Translator speech adapter",
+  "voice": "de-DE-KatjaNeural",
+  "characters": 3020,
+  "bytes": 1215648,
+  "generation_seconds": 9.07
+}

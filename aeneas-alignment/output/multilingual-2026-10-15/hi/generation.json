@@ -1,0 +1,7 @@
+{
+  "provider": "Existing Speechma Microsoft Translator speech adapter",
+  "voice": "hi-IN-SwaraNeural",
+  "characters": 3049,
+  "bytes": 1570320,
+  "generation_seconds": 3.7
+}

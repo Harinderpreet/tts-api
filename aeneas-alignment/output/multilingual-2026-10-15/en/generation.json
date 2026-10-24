@@ -1,0 +1,7 @@
+{
+  "provider": "Existing Speechma Microsoft Translator speech adapter",
+  "voice": "en-US-AriaNeural",
+  "characters": 2983,
+  "bytes": 1147104,
+  "generation_seconds": 2.14
+}

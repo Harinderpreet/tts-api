@@ -1,0 +1,9 @@
+{
+  "request": 2,
+  "started_at_utc": "2026-10-15T03:51:20.084740+00:00",
+  "finished_at_utc": "2026-10-15T04:09:00.901318+00:00",
+  "elapsed_seconds": 1060.8062075000053,
+  "curl_exit_code": -2,
+  "curl": {},
+  "error": ""
+}

@@ -1,0 +1,20 @@
+{
+  "language": "German",
+  "code": "de",
+  "aeneas_language": "deu",
+  "voice": "de-DE-KatjaNeural",
+  "status": "completed",
+  "characters": 3020,
+  "transcript_words": 409,
+  "srt_cues": 409,
+  "audio_duration_seconds": 202.608,
+  "generation_seconds": 9.07,
+  "alignment_seconds": 0.922,
+  "zero_duration_cues": 0,
+  "word_sequence_matches_transcript": true,
+  "audio_fully_decoded": true,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "timing_accuracy_manually_verified": false,
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/de/speech.mp3",
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/de/words.srt"
+}

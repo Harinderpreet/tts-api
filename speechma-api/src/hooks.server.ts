@@ -9,7 +9,8 @@ export const init: ServerInit = async () => {
 
 export const handle: Handle = async ({ event, resolve }) => {
   const path = event.url.pathname;
-  const apiRoute = path === '/health' || path === '/tts' || path.startsWith('/tts/');
+  const apiRoute = path === '/health' || path === '/tts' || path.startsWith('/tts/')
+    || path.startsWith('/api/load-test/');
   if (!apiRoute) return resolve(event);
 
   // Preserve the source's permissive CORS policy and unauthenticated preflight.

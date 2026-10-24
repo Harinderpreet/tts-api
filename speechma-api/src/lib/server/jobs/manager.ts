@@ -24,6 +24,12 @@ export class JobManager {
 
   get providerReady() { return this.provider !== null && !this.shutdown.signal.aborted; }
   get queueSize() { return this.queue.length; }
+  get workerSlotsInUse() { return this.active.size; }
+  get processingJobsCount() {
+    let count = 0;
+    for (const job of this.jobs.values()) if (job.status === 'processing') count++;
+    return count;
+  }
 
   start() { this.retention.start(); }
 

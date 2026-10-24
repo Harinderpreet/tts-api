@@ -1,0 +1,18 @@
+{
+  "method": "Aeneas word-per-line alignment (John Meade gist adaptation)",
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/forced-alignment/output/ten-minute-2026-10-14/speech.mp3",
+  "transcript": "/Users/harinderpreetsingh/Desktop/Programming/speechma/forced-alignment/output/ten-minute-2026-10-14/transcript.txt",
+  "language": "eng",
+  "audio_duration_seconds": 600.0,
+  "transcript_words": 1554,
+  "srt_cues": 1554,
+  "alignment_seconds": 3.776,
+  "audio_seconds_per_processing_second": 158.897,
+  "first_word_start_seconds": 0.0,
+  "last_word_end_seconds": 600.0,
+  "zero_duration_cues": 0,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "word_sequence_matches_transcript": true,
+  "timing_accuracy_manually_verified": false,
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/ten-minute/words.srt"
+}

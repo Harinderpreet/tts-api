@@ -1,0 +1,29 @@
+{
+  "minimum_pause_seconds": 1.0,
+  "fixture_pauses": [
+    {
+      "start": 3.628390022675737,
+      "end": 4.128390022675737
+    },
+    {
+      "start": 8.434195011337868,
+      "end": 9.934195011337868
+    }
+  ],
+  "caption_gaps": [
+    {
+      "start": 8.44,
+      "end": 9.92,
+      "duration": 1.48,
+      "previous_word": "pause.",
+      "next_word": "The"
+    }
+  ],
+  "alignment_seconds": 0.54,
+  "checks": {
+    "all_words_preserved": true,
+    "no_zero_duration_cues": true,
+    "short_pause_stays_inside_word_cues": true,
+    "long_pause_has_caption_free_gap": true
+  }
+}

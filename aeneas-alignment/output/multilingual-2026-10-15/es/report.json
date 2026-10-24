@@ -1,0 +1,20 @@
+{
+  "language": "Spanish",
+  "code": "es",
+  "aeneas_language": "spa",
+  "voice": "es-ES-ElviraNeural",
+  "status": "completed",
+  "characters": 3004,
+  "transcript_words": 467,
+  "srt_cues": 467,
+  "audio_duration_seconds": 185.712,
+  "generation_seconds": 6.04,
+  "alignment_seconds": 1.327,
+  "zero_duration_cues": 0,
+  "word_sequence_matches_transcript": true,
+  "audio_fully_decoded": true,
+  "aeneas_adjust_zero_duration_boundaries": true,
+  "timing_accuracy_manually_verified": false,
+  "audio": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/es/speech.mp3",
+  "srt": "/Users/harinderpreetsingh/Desktop/Programming/speechma/aeneas-alignment/output/multilingual-2026-10-15/es/words.srt"
+}

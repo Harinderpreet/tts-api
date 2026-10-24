@@ -234,7 +234,84 @@ retry/rate-limit settings are not used by this HTTPS method. No new packages are
 - Health keeps the original response fields and HTTP 200 behavior and omits tracebacks.
   A healthy local state does not prove provider connectivity or webhook delivery.
 
+## Browser capacity testing
+
+Deploy the app and open `/load-test` (production: `https://speechma.crikk.com/load-test`).
+The API playground links to this light-theme page. No extra service, package, host terminal,
+or Docker socket access is needed.
+
+1. Enter the existing service API key and click **Connect & monitor**. The key starts blank,
+   stays in tab memory, and is never included in page data or reports. Connecting sends no
+   speech requests.
+2. Enter representative speech text, voice, and settings. Separate texts with a line containing
+   `---` to rotate through multiple scripts. Set the outstanding-job cap, job budget, submission
+   duration, and job observation timeout before starting. The default cap is the configured
+   server worker limit; it does not modify that limit.
+3. Use **Add batch** for a finite number of jobs, or **Maintain this target** / the preset buttons
+   to replace completed jobs continuously. Increase gradually while watching successful throughput,
+   completion times, errors, queue growth, and resource headroom.
+4. **Pause new jobs** clears unsent batch work and replenishment. **Drain & finish** waits for
+   tracked jobs to finish or their observation timeout. Neither cancels accepted server work.
+5. Completed rows provide **Listen / download** using the existing audio component. **Download
+   report** exports all job records and resource samples without speech text or credentials.
+   **New run** resets the local counters when no jobs remain tracked; scripts and limits can
+   then be changed.
+
+Live metrics are read from the authenticated, uncached `GET /api/load-test/metrics` endpoint.
+It uses the existing API-key authentication hook and exposes no environment or credential values.
+The page samples every five seconds, and the server shares/caches resource measurements across
+tabs for one second. There is no resource-monitor background worker or disk scan.
+
+The page labels OS-visible host CPU/RAM, Node process CPU/resident RAM, and Linux cgroup v2
+resource-group CPU/RAM separately. Host CPU uses the whole machine scale; process/group CPU
+uses 100% per core and can exceed 100%. The first CPU reading needs a second sample.
+Group memory includes cache and can differ from `docker stats`. Direct group CPU/memory
+limits are displayed when available; ancestor limits can be tighter. Unsupported group metrics
+remain unavailable, including cgroup v1 deployments. No Docker CLI or daemon access is required.
+The measurements follow [Node process metrics](https://nodejs.org/api/process.html) and the
+[Linux cgroup v2 interfaces](https://docs.kernel.org/admin-guide/cgroup-v2.html).
+
+All queue/processing/worker-slot counts belong to the responding Node process and include
+normal traffic. They do not aggregate replicas. The browser drives this test: keep the tab
+open and active. Background-tab timer throttling can affect the load. Closing, refreshing, or
+disconnecting loses local tracking; accepted jobs, retention, and outgoing webhooks continue
+normally. No speech requests run just from opening the page. Failed speech/rejected requests
+pause replenishment; uncertain submission or job-status outcomes lock new submissions rather
+than retrying work that may still run. Monitoring loss also pauses new submissions.
+
+Completion times include queue and polling delays and are cumulative over the run. Successful
+throughput is measured between resource samples. API completion does not check MP3 validity or
+spoken-text completeness; the audio preview supports manual inspection. Resource readings and
+client counters are sampled and are not exact Microsoft-side connection counts.
+
+Browser feature source map:
+
+| Location | Responsibility |
+| --- | --- |
+| `src/routes/load-test/` | Page controls, input validation, run/report orchestration, public limits |
+| `src/lib/client/load-test.ts` | Browser job dispatch, concurrency, status tracking, pause/drain and reports |
+| `src/lib/components/testing/LoadTestMetrics.svelte` | Live resource polling, cards and CPU chart |
+| `src/lib/server/system-metrics.ts` | Shared host, process and cgroup resource sampling |
+| `src/routes/api/load-test/metrics/+server.ts` | Authenticated resource/queue response orchestration |
+
+Approved local validation on 2026-10-22: project check passed with zero errors/warnings;
+changed Svelte components passed the source analyzer. In-process mocks covered finite batches,
+script rotation, target increases/decreases, replenishment, pause/drain, job/time budgets,
+generation failures, rejected/uncertain requests, observation timeouts, disposal, report privacy,
+the resource cache, and metrics endpoint authentication/queue counts. No service was started,
+no production request was sent, and no deployment, browser playback, build, or live Linux
+cgroup validation was performed for this addition.
+
 ## Runtime limits
+
+For interactive production capacity measurement, see
+[`scripts/load-test/README.md`](scripts/load-test/README.md). The standalone Node terminal
+client supports finite batches, adjustable maintained concurrency, Linux host/Docker metrics,
+and JSONL reports without installing packages or starting a web service. `/health` now also
+exposes `processing_jobs_count`, `worker_slots_in_use`, and `max_concurrent_requests`; the
+existing `active_jobs_size` remains the waiting queue count. Worker slots include webhook
+completion time. These new health fields require deploying the source changes, and all counts
+remain per Node process.
 
 This app needs a long-running Node process (`adapter-node`), not a short-lived serverless
 request runtime. The queue, job metadata, concurrency limit, and timers belong to one process.
