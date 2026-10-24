@@ -1,14 +1,8 @@
 export interface ServerMetrics {
   timestamp: number;
-  processId: number;
   ready: boolean;
-  queued: number;
-  processing: number;
-  workerSlots: number;
   maxConcurrent: number;
-  process: { cpuPercent: number | null; memoryBytes: number };
   host: { cpuPercent: number | null; memoryBytes: number; availableBytes: number; totalBytes: number };
-  group: { cpuPercent: number | null; cpuLimitCores: number | null; memoryBytes: number; memoryLimitBytes: number | null } | null;
 }
 
 export interface LoadLimits {

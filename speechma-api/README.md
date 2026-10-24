@@ -243,16 +243,19 @@ or Docker socket access is needed.
 1. Enter the existing service API key and click **Connect & monitor**. The key starts blank,
    stays in tab memory, and is never included in page data or reports. Connecting sends no
    speech requests.
-2. Enter representative speech text, voice, and settings. Separate texts with a line containing
-   `---` to rotate through multiple scripts. Set the outstanding-job cap, job budget, submission
-   duration, and job observation timeout before starting. The default cap is the configured
-   server worker limit; it does not modify that limit.
+2. Use the longer default speech sample, or enter representative text. The default is intended
+   to exceed 30 seconds at normal speed; actual duration depends on voice and speed and has not
+   been measured. Separate texts with a line containing `---` to rotate through multiple scripts.
+   Voice settings and run limits are collapsed by default.
 3. Use **Add batch** for a finite number of jobs, or **Maintain this target** / the preset buttons
-   to replace completed jobs continuously. Increase gradually while watching successful throughput,
-   completion times, errors, queue growth, and resource headroom.
+   to replace completed jobs continuously. Maintained targets support 1–200 outstanding requests,
+   with presets for 10, 50, 100, 150, and 200. Watch overall CPU/RAM and the submitted/completed/error
+   counts. The client cap is 200 independently of the server worker limit. To process 200 jobs
+   simultaneously, production `MAX_CONCURRENT_REQUESTS` must also allow 200; otherwise extras queue.
+   The page does not change that server setting.
 4. **Pause new jobs** clears unsent batch work and replenishment. **Drain & finish** waits for
    tracked jobs to finish or their observation timeout. Neither cancels accepted server work.
-5. Completed rows provide **Listen / download** using the existing audio component. **Download
+5. Expand **Job details & audio** for per-job status and **Listen / download**. **Download
    report** exports all job records and resource samples without speech text or credentials.
    **New run** resets the local counters when no jobs remain tracked; scripts and limits can
    then be changed.
@@ -262,27 +265,25 @@ It uses the existing API-key authentication hook and exposes no environment or c
 The page samples every five seconds, and the server shares/caches resource measurements across
 tabs for one second. There is no resource-monitor background worker or disk scan.
 
-The page labels OS-visible host CPU/RAM, Node process CPU/resident RAM, and Linux cgroup v2
-resource-group CPU/RAM separately. Host CPU uses the whole machine scale; process/group CPU
-uses 100% per core and can exceed 100%. The first CPU reading needs a second sample.
-Group memory includes cache and can differ from `docker stats`. Direct group CPU/memory
-limits are displayed when available; ancestor limits can be tighter. Unsupported group metrics
-remain unavailable, including cgroup v1 deployments. No Docker CLI or daemon access is required.
-The measurements follow [Node process metrics](https://nodejs.org/api/process.html) and the
-[Linux cgroup v2 interfaces](https://docs.kernel.org/admin-guide/cgroup-v2.html).
+The resource panel shows only overall server CPU and RAM. CPU uses the whole machine scale,
+across all OS-visible CPU cores. RAM shows used, available, and total memory. The first CPU
+reading needs a second sample. Each resource has a usage bar with its current value on the left,
+maximum on the right, and percentage inside the bar. Colors are visual guides: green below 70%,
+amber from 70% to under 90%, and red at 90% and above. They are not measured capacity limits.
+Node-process and cgroup resource collection and response fields
+have been removed from the browser metrics endpoint. No Docker CLI or daemon access is required.
 
-All queue/processing/worker-slot counts belong to the responding Node process and include
-normal traffic. They do not aggregate replicas. The browser drives this test: keep the tab
+The server worker limit belongs to the responding Node process. Resource readings describe
+that server and do not aggregate multiple hosts. The browser drives this test: keep the tab
 open and active. Background-tab timer throttling can affect the load. Closing, refreshing, or
 disconnecting loses local tracking; accepted jobs, retention, and outgoing webhooks continue
 normally. No speech requests run just from opening the page. Failed speech/rejected requests
 pause replenishment; uncertain submission or job-status outcomes lock new submissions rather
 than retrying work that may still run. Monitoring loss also pauses new submissions.
 
-Completion times include queue and polling delays and are cumulative over the run. Successful
-throughput is measured between resource samples. API completion does not check MP3 validity or
-spoken-text completeness; the audio preview supports manual inspection. Resource readings and
-client counters are sampled and are not exact Microsoft-side connection counts.
+Detailed completion times remain in the downloaded report. API completion does not check MP3
+validity or spoken-text completeness; the audio preview supports manual inspection. Resource
+readings and client counters are sampled and are not exact Microsoft-side connection counts.
 
 Browser feature source map:
 
@@ -290,9 +291,10 @@ Browser feature source map:
 | --- | --- |
 | `src/routes/load-test/` | Page controls, input validation, run/report orchestration, public limits |
 | `src/lib/client/load-test.ts` | Browser job dispatch, concurrency, status tracking, pause/drain and reports |
-| `src/lib/components/testing/LoadTestMetrics.svelte` | Live resource polling, cards and CPU chart |
-| `src/lib/server/system-metrics.ts` | Shared host, process and cgroup resource sampling |
-| `src/routes/api/load-test/metrics/+server.ts` | Authenticated resource/queue response orchestration |
+| `src/lib/components/testing/LoadTestMetrics.svelte` | Live overall CPU/RAM polling and usage display |
+| `src/lib/components/testing/ResourceUsageBar.svelte` | Reusable current/maximum usage bar and color guide |
+| `src/lib/server/system-metrics.ts` | Shared overall CPU/RAM sampling |
+| `src/routes/api/load-test/metrics/+server.ts` | Authenticated overall resources and server worker limit |
 
 Approved local validation on 2026-10-22: project check passed with zero errors/warnings;
 changed Svelte components passed the source analyzer. In-process mocks covered finite batches,
@@ -301,6 +303,16 @@ generation failures, rejected/uncertain requests, observation timeouts, disposal
 the resource cache, and metrics endpoint authentication/queue counts. No service was started,
 no production request was sent, and no deployment, browser playback, build, or live Linux
 cgroup validation was performed for this addition.
+
+Simplification checks on 2026-10-24 passed: project check with zero errors/warnings, Svelte
+source analysis, and local mocked controller/endpoint/resource checks. The mock maintained 200
+outstanding requests, replaced completed jobs, and stopped new submissions when paused. Metrics
+checks confirmed only overall resources are returned, with authentication and no-store preserved.
+No real speech requests, production load tests, service starts, or deployment were performed.
+
+The subsequent usage-bar UI update is source-only; the user chose to perform its checks and
+testing themselves. No source analyzer, type check, build, browser test, or service start was
+run for that update.
 
 ## Runtime limits
 
